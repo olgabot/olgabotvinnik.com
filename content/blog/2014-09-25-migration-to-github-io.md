@@ -1,7 +1,7 @@
 ---
 Title: "Migration to Github.io!"
 Slug: migration-to-github-io
-Date: 2014-09-25 08:58:51
+Date: 2014-09-25T17:25:59-04:00
 #Tags: github, blog
 Category: 
 Author: Olga Botvinnik

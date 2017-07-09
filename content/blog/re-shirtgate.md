@@ -1,6 +1,6 @@
 ---
 Title: "Re: 'Shirtgate'"
-Date: 2014-11-16 11:28:00
+Date: 2014-11-16T17:25:59-04:00
 #Tags: social media, feminism
 ---
 Re ["shirtgate"](http://www.rawstory.com/rs/2014/11/a-pornographer-and-atheist-explains-why-the-science-guys-shirt-crash-landed/) (link is to a reasonable summary and rebuttal that I don't completely agree with.)

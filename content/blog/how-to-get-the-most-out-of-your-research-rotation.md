@@ -1,6 +1,6 @@
 ---
 Title: "How to get the most out of your research rotation (or other short research stint)"
-Date: 2015-02-22 20:33:30
+Date: 2015-02-22T17:25:59-04:00
 draft: true
 ---
 

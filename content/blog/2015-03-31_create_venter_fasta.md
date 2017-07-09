@@ -1,7 +1,6 @@
 ---
 Title: How to create a custom genome fasta from a vcf file
-Date: 2015-04-01 11:08:00
-Modified: 015-04-01 11:08:00
+Date: 2015-04-01T17:25:59-04:00
 Category: bioinformatics
 #Tags: bioinformatics, genomics, ensembl
 Slug: how-to-create-a-custom-genome-fasta-from-a-vcf-file

@@ -1,7 +1,6 @@
 ---
 Title: "Fixing issues with Integrated Genomics Viewer (IGV): Null pointer exceptions, invalid GZIP header, invalid BZIP header"
-Date: 2015-05-06 15:04:01
-Modified: 2015-05-06 15:04:01
+Date: 2015-05-06T17:25:59-04:00
 Category: bioinformatics
 #Tags: bioinformatics, samtools, igv, java
 Slug: igv-java-lang-nullpointerexception

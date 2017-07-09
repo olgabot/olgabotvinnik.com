@@ -1,7 +1,6 @@
 ---
 Title: "Time is Citations: How I Plan My Days"
-Date: 2016-12-14 12:01:00
-Modified: 2016-12-14 12:01:00
+Date: 2016-12-14T17:25:59-04:00
 Category: productivity
 #Tags: deep work, productivity, phd, grad school
 Slug: time-is-citations

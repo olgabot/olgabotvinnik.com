@@ -1,7 +1,7 @@
 ---
 Title: No longer actively developing prettyplotlib
 Slug: no-longer-actively-developing-prettyplotlib
-Date: 2014-10-06 10:10:39
+Date: 2014-10-06T17:25:59-04:00
 #Tags: python, visualization, prettyplotlib, seaborn, flotilla
 Category: software
 Author: Olga Botvinnik

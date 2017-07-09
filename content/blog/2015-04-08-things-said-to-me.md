@@ -1,7 +1,6 @@
 ---
 Title: Things said to me
-Date: 2015-04-07 11:17:00
-Modified: 2015-04-07 11:17:00
+Date: 2015-04-07T17:25:59-04:00
 #Category: tech
 #Tags: tech, feminism
 Slug: things-said-to-me

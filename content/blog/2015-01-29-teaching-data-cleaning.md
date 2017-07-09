@@ -1,7 +1,7 @@
 ---
 Title: Teaching "Data cleaning"
 Slug: teaching-data-cleaning
-Date: 2015-01-29 13:51:43
+Date: 2015-01-29T17:25:59-04:00
 #Tags: teaching, python, programming
 Category: python
 Author: Olga Botvinnik

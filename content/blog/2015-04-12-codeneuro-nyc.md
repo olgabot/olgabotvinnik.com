@@ -1,7 +1,6 @@
 ---
 Title: CodeNeuro NYC 2015
-Date: 2015-04-12 22:21:00
-Modified: 2015-04-22 22:21:00
+Date: 2015-04-12T17:25:59-04:00
 #Category: conferences
 #Tags: programming, conferences, bioinformatics, neuroscience
 Slug: codeneuro-nyc-2015
