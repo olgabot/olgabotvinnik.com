@@ -1,0 +1,40 @@
+baseurl = "https://olgabotvinnik.com/"
+languageCode = "en-US"
+title = "Olga Botvinnik"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "olgabot"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "olga.jpg"
+  author = "Olga Botvinnik"
+  description = "Peppy Computational Biologist"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "olgabot"
+  Email         = "olga@olgabotvinnik.com"
+  Twitter       = "olgabot"
+  LinkedIn      = "olgabotvinnik"
+  Stackoverflow = "users/1628971/olga-botvinnik"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog"
+[[menu.main]]
+  name = "cv"
+  identifier = "cv"
+  weight = 300
+  url = "https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf"
+

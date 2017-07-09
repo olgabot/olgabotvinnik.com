@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olga Botvinnik</title>
+    <link>https://olgabotvinnik.com/</link>
+    <description>Recent content on Olga Botvinnik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 09 Jul 2017 17:25:59 -0400</lastBuildDate>
+    
+	<atom:link href="https://olgabotvinnik.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrate To Hugo</title>
+      <link>https://olgabotvinnik.com/blog/migrate-to-hugo/</link>
+      <pubDate>Sun, 09 Jul 2017 17:25:59 -0400</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/migrate-to-hugo/</guid>
+      <description>My landing page website was originally hosted on flavors.me but that got shut down and all my web presence was broken for a few weeks (!!).
+I got tired of dealing with Github Pages and building via Travis-CI. Today I migrated to Hugo and deploy the website using Netlify.
+I chose Hugo because it has nice minimal themes and was reasonably easy to set up and deploy. I had some issues with using custom themes and ended up just copying the folder to my directory rather than dealing with submodules which were a major headache.</description>
+    </item>
+    
+    <item>
+      <title>IGV: Null pointer exceptions, invalid GZIP header, invalid BZIP header</title>
+      <link>https://olgabotvinnik.com/blog/igv-java-lang-nullpointerexception/</link>
+      <pubDate>Wed, 06 May 2015 15:04:01 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/igv-java-lang-nullpointerexception/</guid>
+      <description>If you&amp;rsquo;ve run into a java.lang.NullPointerException or &amp;ldquo;Invalid Gzip Header&amp;rdquo; or some complaint about bzip while using the Integrative Genomics Viewer, then you&amp;rsquo;ve run into the same problem as me. Turns out I had too many index (*.bai) files that had similar naming to my *.bam files, and IGV assigned the wrong ones as the index, so whenever I tried to view reads from those samples, the index pointed to the wrong location in the bam, and one of those many errors would happen.</description>
+    </item>
+    
+    <item>
+      <title>Migration to Github.io!</title>
+      <link>https://olgabotvinnik.com/blog/migration-to-github-io/</link>
+      <pubDate>Thu, 25 Sep 2014 08:58:51 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/migration-to-github-io/</guid>
+      <description>I moved my blog from Tumblr to Github pages for several reasons:
+ Write posts in Markdown and IPython notebooks so figures, code, and LaTeX markup would show up fine. Easily back up my posts. Before, I wrote my posts in Simplenote and then copy-pasted to Tumblr, but I didn&amp;rsquo;t like that. I don&amp;rsquo;t use the re-blogging or following aspects of Tumblr much so I didn&amp;rsquo;t see the advantages of that network.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2014-10-06-no-longer-actively-developing-prettyplotlib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2014-10-06-no-longer-actively-developing-prettyplotlib/</guid>
+      <description>Title: No longer actively developing prettyplotlib Slug: no-longer-actively-developing-prettyplotlib Date: 2014-10-06 10:10:39 Tags: python, visualization, prettyplotlib, seaborn, flotilla Category: software Author: Olga Botvinnik Lang: en Summary: It is with heavy heart that I announce that I am no longer actively developing prettyplotlib. I just don&amp;rsquo;t have the bandwidth available to do the project justice. It was a fantastic experience to &amp;hellip;
+It is with heavy heart that I announce that I am no longer actively developing prettyplotlib.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-01-27-2014-annual-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-01-27-2014-annual-review/</guid>
+      <description>Title: 2014 Annual Review Slug: 2014-annual-review Date: 2015-02-22 13:29:35 Tags: review, personal, professional, productivity Category: productivity Author: Olga Botvinnik Lang: en Summary: Recently I subscribed to James Clear&amp;rsquo;s blog and his writing and advice has resonated with me. The last time I felt like someone was speaking directly through me was Cal Newport&amp;rsquo;s Study Hacks blog, which I discovered during undergrad, and I felt it directly addressed the issues I was having with keeping up with my intense courseload.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-01-29-teaching-data-cleaning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-01-29-teaching-data-cleaning/</guid>
+      <description>Title: Teaching &amp;ldquo;Data cleaning&amp;rdquo; Slug: teaching-data-cleaning Date: 2015-01-29 13:51:43 Tags: teaching, python, programming Category: python Author: Olga Botvinnik Lang: en Summary: Our compute cluster is down for maintenance, so obviously instead of working on my advancement exam presentation, I&amp;rsquo;m gonna write a blog post about teaching &amp;ldquo;data cleaning&amp;rdquo; to graduate students in UCSD&amp;rsquo;s BIOM 262: &amp;ldquo;Quantitative Methods in Genetics&amp;rdquo; class, where I taught Python, IPython Notebook, and pandas, using Software Carpentry techniques for teaching technical skills.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-02-22-classic-vs-applied-bioinformatics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-02-22-classic-vs-applied-bioinformatics/</guid>
+      <description>Title: Bio-what? Slug: bio-what Date: Tags: science, bioinformatics Category: science Author: Olga Botvinnik Lang: en Summary: When I tell people I do &amp;ldquo;bioinformatics,&amp;rdquo; the response is usually &amp;ldquo;bio-what?&amp;rdquo; And honestly, bioinformatics is hard to define even for people WITHIN the field. In this post I will describe what I see as the two main threads of bioinformatics.
+When I tell people I do &amp;ldquo;bioinformatics,&amp;rdquo; the response is usually &amp;ldquo;bio-what?&amp;rdquo; And honestly, bioinformatics is hard to define even for people WITHIN the field.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-03-31_create_venter_fasta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-03-31_create_venter_fasta/</guid>
+      <description>Title: How to create a custom genome fasta from a vcf file Date: 2015-04-01 11:08 Modified: 015-04-01 11:08 Category: bioinformatics Tags: bioinformatics, genomics, ensembl Slug: how-to-create-a-custom-genome-fasta-from-a-vcf-file Authors: Olga Botvinnik Summary: I&amp;rsquo;ve tried to create a custom genome for the J. Craig Venter genome several times using vcf-consensus and other tools and they have never worked. Finally, I&amp;rsquo;ve gotten something to work, and hopefuly this helps you too! This is a log of all the steps I had to take to create a new reference genome.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-04-01-bad-data-science-puns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-04-01-bad-data-science-puns/</guid>
+      <description>What&amp;rsquo;s a data scientist&amp;rsquo;s least favorite bread? NaN
+Who is a data scientist&amp;rsquo;s least favorite rapper? Nas</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-04-08-things-said-to-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-04-08-things-said-to-me/</guid>
+      <description>Title: Things said to me Date: 2015-04-07 11:17 Modified: 2015-04-07 11:17 Category: tech Tags: tech, feminism Slug: things-said-to-me Authors: Olga Botvinnik Summary: I read the things my male tech colleagues have said to me article and thought about my own experience. Thankfully I haven&amp;rsquo;t been subjected to nearly as many microagressions (but hey I&amp;rsquo;m still young! there&amp;rsquo;s plenty of time!), but there were a few points that resonated wih me.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2015-04-12-codeneuro-nyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2015-04-12-codeneuro-nyc/</guid>
+      <description>Title: CodeNeuro NYC 2015 Date: 2015-04-12 22:21 Modified: 2015-04-22 22:21 Category: conferences Tags: programming, conferences, bioinformatics, neuroscience Slug: codeneuro-nyc-2015 Authors: Olga Botvinnik Summary: Last weekend I attended the CodeNeuro NYC conference, which is a conference for neuroscientists, programmers, and everything in between. It was a unique experience because it had both the excitement and energy of a tech conference, and the pure, unadulterated zest for knowledge of a scientific conference.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/2016-12-14-time-is-citations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/2016-12-14-time-is-citations/</guid>
+      <description>Title: Time is Citations: How I Plan My Days Date: 2016-12-14 12:01 Modified: 2016-12-14 12:01 Category: productivity Tags: deep work, productivity, phd, grad school Slug: time-is-citations Authors: Olga Botvinnik Summary: In business, time is money. But in academia, the currency is not published units but citations of your publications. For someone to not only read your paper but understand and cite it, you need to produce high-quality, readable papers. And that requires deep work.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/asking-profs-to-be-on-your-dissertation-committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/asking-profs-to-be-on-your-dissertation-committee/</guid>
+      <description>Title: Asking profs to be on your dissertation committee Slug: asking-profs-to-be-on-your-dissertation-committee Date: Tags: phd, grad school Category: academia Author: Olga Botvinnik Lang: en Summary:
+Status: draft</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/how-to-get-the-most-out-of-your-research-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/how-to-get-the-most-out-of-your-research-rotation/</guid>
+      <description>Title: How to get the most out of your research rotation (or other short research stint) Slug: how-to-get-the-most-out-of-your-research-rotation Date: 2015-02-22 20:33:30 Tags: phd, science, grad school Category: academia Author: Olga Botvinnik Lang: en Summary: status: draft
+As a first-year rotation student, rotations were tough. For our program, you had 10 weeks to work with someone in the lab on a project you knew nothing about and produce some results in the end.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/re-shirtgate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/re-shirtgate/</guid>
+      <description>Title: Re: &amp;ldquo;Shirtgate&amp;rdquo; Slug: re-shirtgate Date: 2014-11-16 11:28:00 Tags: social media, feminism Category: Author: Lang: Summary: Re: Shirtgate. My take on the scientist who wore a crazy shirt to an interview about landing a robot on a comet 300,000 million miles away.
+Re &amp;ldquo;shirtgate&amp;rdquo; (link is to a reasonable summary and rebuttal that I don&amp;rsquo;t completely agree with.)
+Just like it&amp;rsquo;s overly simplistic to let one woman&amp;rsquo;s voice stand for all women, I also think it&amp;rsquo;s a jump to say that the women on this shirt represent every woman ever.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olgabotvinnik.com/blog/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olgabotvinnik.com/blog/test/</guid>
+      <description>Title: The second article Date: 2012-12-01 10:02
+See below intra-site link examples in Markdown format.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Peppy Computational Biologist">
+    <link rel="shortcut icon" type="image/x-icon" href="https://olgabotvinnik.com/img/favicon.ico">
+    <title></title>
+    <meta name="generator" content="Hugo 0.24.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://olgabotvinnik.com/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://olgabotvinnik.com/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog">BLOG</a></li>
+        
+        <li><a href="https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf">CV</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://olgabotvinnik.com/blog/2015-02-22-classic-vs-applied-bioinformatics/"></a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          January 1, 0001
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<p>Title: Bio-what?
+Slug: bio-what
+Date:
+Tags: science, bioinformatics
+Category: science
+Author: Olga Botvinnik
+Lang: en
+Summary: When I tell people I do &ldquo;bioinformatics,&rdquo; the response is usually &ldquo;bio-<em>what</em>?&rdquo; And honestly, bioinformatics is hard to define even for people WITHIN the field. In this post I will describe what I see as the two main threads of bioinformatics.</p>
+
+<p>When I tell people I do &ldquo;bioinformatics,&rdquo; the response is usually &ldquo;bio-<em>what</em>?&rdquo; And honestly, bioinformatics is hard to define even for people WITHIN the field. In this post I will describe what I see as the two main threads of bioinformatics.</p>
+
+<p>First of all, there&rsquo;s the issue of naming. To some people, &ldquo;Computational Biology&rdquo; is separate from &ldquo;Bioinformatics,&rdquo; but two people rarely agree on exactly what constitutes one or the other. Secondly, our PhD program is named <em>&ldquo;Bioinformatics and Systems Biology&rdquo;</em>, and according to my friend on the systems biology side who worked in a Harvard lab during undergrad before coming to UC-San Diego, there&rsquo;s a huge difference between &ldquo;East Coast Systems Biology&rdquo; and &ldquo;West Coast Systems Biology,&rdquo; even though I can&rsquo;t tell.</p>
+
+<p>Secondly, there&rsquo;s a huge range of topics that consist of bioinformatics in one way or another. The way I see it, there&rsquo;s two main divisions: <em>&ldquo;Classic Bioinformatics&rdquo;</em> and <em>&ldquo;Applied Bioinformatics.&rdquo;</em> These should be taken with a heavy grain of salt, as I am a newcomer to the Bioinformatics field. These are my opinions on the current state, not absolute truth. Additionally, these two &ldquo;halves&rdquo; are symbiotic, and need each other to sustain life.</p>
+
+<h2 id="classic-bioinformatics">Classic Bioinformatics</h2>
+
+<p>This is where it all started. It used to be that when people thought of bioinformatics, they thought of comparing sequences. A few years ago I read a blog post that stated &ldquo;All of bioinformatics is essentially <code>strcmp</code> [string compare],&rdquo; which made my blood boil because the subtleties of comparing these strings requires sophisticated algorithms to account for gaps, substitutions, and repetitive regions. Most of the tools below are analyzing strings or</p>
+
+<p>The focus here is to make sense and organize what we have of biological data into organized data structures.</p>
+
+<p>These are the algorithms and tools that we learn in our first-year graduate school classes, like:</p>
+
+<ul>
+<li><a href="http://www.pnas.org/content/98/17/9748.full">De Bruijn graphs for genome assembly</a></li>
+<li><a href="http://dl.acm.org/citation.cfm?id=586673">Genome rearrangements and sorting by reversals</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm">Smith-Waterman local alignment of sequences</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">Needleman-Wunsch global alignment of sequences</a></li>
+<li><a href="http://genomebiology.com/2009/10/3/R25">Burrows-Wheeler transform for aligning reads to the genome</a></li>
+<li><a href="http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html">Maximum Entropy determination of splice site strengths</a></li>
+<li><a href="https://github.com/ged-lab/khmer"><em>k</em>-mer counting and filtering</a></li>
+<li><a href="http://www.nature.com/nbt/journal/v22/n10/pdf/nbt1004-1315.pdf">Hidden Markov Models for genome and protein structure and domain prediction</a></li>
+<li><a href="http://www.psrg.csail.mit.edu/pubs/BarGifJaa-ismb01.pdf">Optimal leaf ordering for hierarchical clustering</a></li>
+<li><a href="http://www.nature.com/nature/journal/v415/n6868/full/415180a.html">Mass spectrometry for proteomics</a></li>
+<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3398611/">Cyclic peptide sequencing by mass spectrometry</a></li>
+</ul>
+
+<p>I see this as <em>Computer science applied to biology.</em></p>
+
+<h2 id="applied-bioinformatics">Applied Bioinformatics</h2>
+
+<p>This is where we are now. This is closer to what I do on a daily basis. Honestly, I don&rsquo;t build any of the algorithms above, but I do need to understand them to know where my data is coming from.</p>
+
+<p>Honestly, the skills I learned in my classes was a good basis for the broad field of biology, but I barely use them on a day-to-day basis. Mostly I</p>
+
+<p>The focus here is to attribute <em>biological function</em> to data.</p>
+
+<ul>
+<li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030129">Bayesian network inference</a></li>
+<li>[Network flow]()</li>
+<li>[]()</li>
+</ul>
+
+<p>I see this as <em>Data science applied to biology.</em> These require the output of the <em>&ldquo;Classic Bioinformatics&rdquo;</em> tools, and use statistics, machine learning, and other applied tools to extract information.</p>
+
+<h2 id="classic-vs-applied-and-awards-by-the-iscb">Classic vs Applied and Awards by the ISCB</h2>
+
+<p>What&rsquo;s interesting is that this division is especially evident in the awardees of the <a href="http://www.iscb.org/">International Society of Computational Biology</a> (ISCB), where the Overton awards to early-career scientists tend to be more &ldquo;Applied,&rdquo; and the Senior Scientist tend to be more &ldquo;Classic.&rdquo;</p>
+
+<p>As I am human, I certainly may have missed a paper or two that pushed one person into one of the other categories, and I am happy to correct any errors.</p>
+
+<h3 id="overton-award-early-career">Overton Award (Early-career)</h3>
+
+<ul>
+<li>[2015: Applied] <a href="http://www.iscb.org/iscb-awards/2383">Curtis Huttenhower</a>
+
+<ul>
+<li>[Applied] Justification: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19246570?dopt=Abstract">Functional maps of the human genome</a> Analysis of large-scale microbiome datasets</li>
+</ul></li>
+<li>[2014] <a href="http://www.iscb.org/iscb-awards/2225">Dana Pe&rsquo;er</a>
+
+<ul>
+<li>[Applied] Justification: <a href="http://bioinformatics.oxfordjournals.org/content/17/suppl_1/S215.full.pdf">Inferring subnetworks from perturbed expression profiles using Bayesian Networks</a></li>
+</ul></li>
+<li>[2013] <a href="http://www.iscb.org/iscb-awards/1837">Goncalo Abecasis</a>
+
+<ul>
+<li>[Classic] Justification: <a href="http://www.sciencedirect.com/science/article/pii/S0002929707622538">Quantitative Test Loci in nuclear families</a>, <a href="http://www.nature.com/ng/journal/v30/n1/full/ng786.html">Gene flow trees</a>, <a href="http://bioinformatics.oxfordjournals.org/content/25/16/2078.short">Sequence Alignment Map (SAM) format</a></li>
+</ul></li>
+<li>[2012] <a href="http://www.iscb.org/iscb-awards/1224">Ziv Bar-Joseph</a>
+
+<ul>
+<li>[Classic] Justification: <a href="http://www.psrg.csail.mit.edu/pubs/BarGifJaa-ismb01.pdf">Optimal Leaf Ordering</a>, <a href="http://www.sciencemag.org/content/331/6014/183">Maximal Independent Sets in <em>Drosophila</em> development</a></li>
+</ul></li>
+<li>[2011] <a href="http://www.iscb.org/iscb-awards/1117">Olga Troyanskaya</a>
+
+<ul>
+<li>[Applied] Justification: <a href="http://bioinformatics.oxfordjournals.org/content/17/6/520.full.pdf">Missing value imputation for microarrays</a>, <a href="http://www.pnas.org/content/100/14/8348.long">A Bayesian framework for combining heterogeneous data sources for gene function prediction (in Saccharomyces cerevisiae)</a></li>
+</ul></li>
+<li>[2010] [Steven E. Brenner]()</li>
+<li>[2009] [Trey Ideker]()</li>
+<li>[2008] [Aviv Regev]()</li>
+<li>[2007] [Eran Segal]()</li>
+<li>[2006] [Mathieu Blanchette]()</li>
+<li>[2005] [Ewan Birney]()</li>
+<li>[2004] [Uri Alon]()</li>
+<li>[2003] [Jim Kent]()</li>
+<li>[2002] [David Baker]()</li>
+<li>[2001] [Christopher B. Burge]()</li>
+</ul>
+
+<h3 id="senior-scientist-accomplishment-prize">Senior Scientist Accomplishment Prize</h3>
+
+<ul>
+<li>[2015] [Cyrus Chothia]()</li>
+<li>[2014] <a href="http://www.iscb.org/iscb-awards/2224">Gene Myers</a>
+
+<ul>
+<li>[Classic] Justification: <a href="http://www.ncbi.nlm.nih.gov/pubmed/2231712?dopt=Citation">BLAST aka Basic Local Alignment Search Tool</a></li>
+</ul></li>
+<li>[2013] [David Eisenberg]()</li>
+<li>[2012] [Gunnar von Heijne]()</li>
+<li>[2011] [Michael Ashburner]()</li>
+<li>[2010] [Chris Sander]()</li>
+<li>[2009] [Webb Miller]()</li>
+<li>[2008] [David Haussler]()</li>
+<li>[2007] [Temple Smith]()</li>
+<li>[2006] [Michael Waterman]()</li>
+<li>[2005] [Janet Thornton]()</li>
+<li>[2004] [David Lipman]()</li>
+<li>[2003] [David Sankoff ]()</li>
+</ul>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = 'olgabot';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://olgabotvinnik.com/js/docs.min.js"></script>
+<script src="https://olgabotvinnik.com/js/main.js"></script>
+
+<script src="https://olgabotvinnik.com/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>
