@@ -1,3 +1,8 @@
+---
+title: "Beyond Gene Ontology: Getting publication information from gene ids"
+date: 2017-07-13T21:38:56-04:00
+draft: true
+---
 
 ## Getting publication information from gene ids
 
@@ -21,7 +26,7 @@ mg = mygene.MyGeneInfo()
 We'll use a list of genes I obtained from [GenePattern]()'s [MSigDB]() (Molecular Signatures Database), specifically the genes that ..... In my research, I use [ENSEMBL]() gene IDs (because they're portable from one genome version to the next) and so we'll say that the `scope` we are searching is `'ensembl.gene'`.
 
 - `scope='ensembl.gene'`: What kind of data we're *giving* the service
-- `fields=('generif', 'symbol', 'summary')`: What we want to *receive* from the service. I ask for the Gene ReferenceIntoFunction (GeneRIF) information, the gene symbol (i.e. the common name like BRCA1) and the gene summary, which is exactly the summary you get when you read [EntrezGene]().
+- `fields=('generif', 'symbol', 'summary')`: What we want to *receive* from the service. I ask for the Gene ReferenceIntoFunction (GeneRIF) information, the gene symbol (i.e. the common name like BRCA1) and the gene summary, which is exactly the summary you get when you read [EntrezGene](https://www.ncbi.nlm.nih.gov/gene).
 - `species='human'`: The species of the human we're querying! Don't want to query the mouse database when we have human samples :)
 
 
@@ -30,6 +35,7 @@ mygene_output = mg.querymany([],
                          scopes='ensembl.gene', fields=('generif', 'symbol', 'summary'), species='human')
 ```
 
+The `mygene_output` is a list of dictionaries
 
 ```                         
 dfs = []
