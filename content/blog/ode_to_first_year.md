@@ -1,3 +1,9 @@
+---
+title: "Macbook Setup"
+date: 2017-07-19T18:57:02-07:00
+draft: true
+---
+
 # Ode to first year of grad school
 
 Aka things I wish I knew about when I started grad school

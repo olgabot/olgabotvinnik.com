@@ -1,3 +1,9 @@
+---
+title: "Macbook Setup"
+date: 2017-07-19T18:57:02-07:00
+draft: true
+---
+
 # Side-by-side comparison of Python command line interfaces (CLIs)
 
 [Article advocating *against* `click`](http://xion.io/post/programming/python-dont-use-click.html)
