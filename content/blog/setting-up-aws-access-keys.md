@@ -3,6 +3,7 @@ title: "Setting Up AWS Access Keys"
 date: 2017-07-26T09:39:41-07:00
 draft: false
 tags: ["aws", "amazon web services", "security", "access keys", "biohub", "czbiohub"]
+categories: ['aws']
 ---
 
 Amazon web services are a really powerful ecosystem of storage and compute
