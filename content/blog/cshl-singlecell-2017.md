@@ -18,7 +18,7 @@ draft: false
 
 
 The Cold Spring Harbor Laboratory (CSHL)
-[Single Cell Analysis Course](https://meetings.cshl.edu/meetings.aspx?meet=SINGLE&year=17)
+[Single Cell Analysis Course](https://meetings.cshl.edu/courses.aspx?course=C-SINGLE&year=17)
 (not to be confused with the "Single Cell *Analyses*" Meeting) for 2017 just
 finished a few weeks ago. I was a co-Instructor and was in charge of the
 bioinformatics curriculum. In some ways, teaching at CSHL is a perfect teaching
