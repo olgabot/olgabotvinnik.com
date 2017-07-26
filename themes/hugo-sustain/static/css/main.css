@@ -127,6 +127,13 @@ html, body {
   padding-top: -10px;
   text-align: left;
 }
+
+/* Auto-resize images */
+.panel-body img {
+    max-width: 100%;
+    height: auto;
+}
+
 .social-links {
   display: block;
   margin: 0 auto;

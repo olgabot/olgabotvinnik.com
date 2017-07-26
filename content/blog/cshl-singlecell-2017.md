@@ -2,6 +2,7 @@
 title: "CSHL Single Cell Analysis 2017 - Bioinformatics"
 date: 2017-07-13T21:38:56-04:00
 draft: false
+tags: ["teaching", ]
 ---
 
 # Reflections on teaching math to biologists
