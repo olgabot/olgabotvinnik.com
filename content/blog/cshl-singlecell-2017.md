@@ -18,13 +18,14 @@ draft: false
 
 
 The Cold Spring Harbor Laboratory (CSHL)
-[Single Cell Analysis]() Course for 2017 just finished a few weeks ago. I was a
-co-Instructor and was in charge of the bioinformatics curriculum. In some ways,
-teaching at CSHL is a perfect teaching setting because there are no
-distractions - the students are there exactly to just work on the course.
-However, many of the students had minimal programming and command line exposure
-so while they can completely focus on learning, they also have a lot to catch
-up on.
+[Single Cell Analysis Course](https://meetings.cshl.edu/meetings.aspx?meet=SINGLE&year=17)
+(not to be confused with the "Single Cell *Analyses*" Meeting) for 2017 just
+finished a few weeks ago. I was a co-Instructor and was in charge of the
+bioinformatics curriculum. In some ways, teaching at CSHL is a perfect teaching
+setting because there are no distractions - the students are there exactly to
+just work on the course. However, many of the students had minimal programming
+and command line exposure so while they can completely focus on learning, they
+also have a lot to catch up on.
 
 This post goes over some lessons learned from this experience. If you want all
 the teaching materials, I made a
