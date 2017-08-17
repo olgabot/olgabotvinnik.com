@@ -1,7 +1,7 @@
 ---
 title: "Macbook Setup"
-date: 2017-07-19T18:57:02-07:00
-draft: true
+date: 2017-08-17T16:57:02-07:00
+draft: False
 ---
 
 When I got my new computer for work, I realized I had to reinstall and set up
@@ -77,22 +77,37 @@ alias vim=emacs
 alias vi=emacs
 ```
 
-- `ssh` keys
-  - [Create a new `ssh` key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-  - [Add `ssh` key to GitHub](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-  - Log on to TSCC and add ssh key to accepted keys with
-    [one line](http://www.linuxproblem.org/art_9.html]:
+### `ssh` keys
+
+- [Create a new `ssh` key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+- [Add `ssh` key to GitHub](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+- Log on to TSCC and add ssh key to accepted keys with
+[one line](http://www.linuxproblem.org/art_9.html):
 
 ```bash
 cat .ssh/id_rsa.pub | ssh obotvinnik@tscc.sdsc.edu 'cat >> .ssh/authorized_keys'
 ```
 
+### Mac OS Terminal program settings
+Here are my personal preferences for setting up the terminal in Mac OS.
 
-- Terminal settings
-  - Mac OS Sierra's high contrast I-beam is on point. I've lost that cursor so many times in El Capitan
-  - [Solarized scheme](https://github.com/tomislav/osx-terminal.app-colors-solarized)
-  - [Inconsolata font, 14 point](https://fonts.google.com/specimen/Inconsolata)
-  - [Set `option` as the `Meta` key for `emacs`](https://www.emacswiki.org/emacs/EmacsForMacOS#toc21): Preferences > Settings > Keyboard > Use option as meta key
+*Side
+Note: Mac OS Sierra's high contrast I-beam is on point. I've lost that cursor
+so many times in El Capitan.*
+
+- [Solarized scheme](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+- [Inconsolata font, 14 point](https://fonts.google.com/specimen/Inconsolata)
+- [Set `option` as the `Meta` key for `emacs`](https://www.emacswiki.org/emacs/EmacsForMacOS#toc21): Preferences > Settings > Keyboard > Use option as meta key
+
+### Python (Anaconda Distribution)
+
+Installing scientific Python packages from scratch is a pain and you will lose
+weeks of your life setting up your `LD_LIBRARY_PATH` and hunting down Math
+Kernel Libraries (if you're really interested, check out
+[this blog post](http://alexsavio.github.io/numpy_scipy_mkl.html)). Enter the
+[Anaconda Python Distribution](https://www.continuum.io/downloads), which makes
+installing math-heavy python a total breeze.
+
 - Anaconda Python
   - Make sure to copy the lines added to `~/.bash_profile` to `~/.zshrc` since Anaconda doesn't know you use `oh-my-zsh`
   - Make separate environments for each github repo
@@ -110,14 +125,21 @@ python -m ipykernel install --user --name myenv --display-name "Python 3.6 (kvec
       command line: https://github.com/github/hub/issues/978
     - `brew install git-lfs` for git large file storage
   - `tree` to view directory trees from the command line
-  - `watch` to rerun commands forever
+  - `watch` to rerun commands forever, e.g. use `watch --interval 1 ls` to
+    rerun ls every second so you can see files get updated while some process
+    is running.
+  - `hg` for Mercurial source code repositories
+  - `cmake` for software that uses `cmake` instead of Make to build stuff
+  - [`gifsicle`](https://www.lcdf.org/gifsicle/) for making Gifs on the command line
+  - [`imagemagick`](https://www.imagemagick.org/script/index.php) for
+    manipulating image types on the command line
 
 
 ## Folder organization
 
 I decided to keep all my github repositories in my home directory, under `~/code`.
 
-  - Downloaded GitHub repos from grad school that I'm still working on
+- Downloaded GitHub repos from grad school that I'm still working on
 
 ## Other software
 Here are some other software packages that I find very useful to use on my Mac.
