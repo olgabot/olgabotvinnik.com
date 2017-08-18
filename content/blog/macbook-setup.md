@@ -32,6 +32,7 @@ ecosystem, which has great plugins e.g. for Markdown and `.gitignore` files.
 - Solarized theme: https://github.com/jkaving/intellij-colors-solarized
 
 Plugins:
+
 - [Markdown Navigator](https://vladsch.com/product/markdown-navigator)
 - [`.ignore`](https://plugins.jetbrains.com/plugin/7495--ignore)
 
@@ -138,12 +139,36 @@ Here are all the programs I installed. For all of them, you install them with
   for command line access so you can do `hub pull-request` on the command line.
   To save this personal access token securely so you'll never have to type in
   your password for the command line again, you need to do two things:
-  1. Open "Keychain" and add `https://github.com` as a website (the `https` is
-     important), using your username as the username and the token as the
-     "password"
-  2. Tell the command line git to use the
-     [credential-osxkeychain[(https://help.github.com/articles/caching-your-github-password-in-git/)
-     as a place to look for passwords.
+
+  1. Tell the command line git to use the
+  [credential-osxkeychain](https://help.github.com/articles/caching-your-github-password-in-git/)
+  as a place to look for passwords.
+
+  ```
+  ➜  manuscript git:(master) git config --global credential.helper osxkeychain
+  ```
+
+  2. Push to a repository, using your username (mine is `olgabot`) and the
+  token as the password. From now on, your computer should remember your token
+
+    ```
+    ➜  manuscript git:(master) git push -u origin master
+    Username for 'https://github.com': olgabot
+    Password for 'https://olgabot@github.com': 
+    Counting objects: 636, done.
+    Delta compression using up to 8 threads.
+    Compressing objects: 100% (273/273), done.
+    Writing objects: 100% (636/636), 174.08 KiB | 0 bytes/s, done.
+    Total 636 (delta 350), reused 636 (delta 350)
+    remote: Resolving deltas: 100% (350/350), done.
+    To https://github.com/singlecell-batches/manuscript.git
+     * [new branch]      master -> master
+    Branch master set up to track remote branch master from origin.
+    ```
+
+  3. Double check that it worked. Open "Keychain" and check that
+  `https://github.com` is listed a website (the `https` is important)
+
 - `brew install git-lfs` for git large file storage
 - `tree` to view directory trees from the command line
 - `watch` to rerun commands forever, e.g. use `watch --interval 1 ls` to
