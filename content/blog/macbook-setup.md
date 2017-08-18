@@ -120,22 +120,41 @@ python -m ipykernel install --user --name myenv --display-name "Python 3.6 (kvec
 ```
 ### Homebrew
 
+[Homebrew](https://brew.sh/) is the "missing package manager" for Mac OS. It
+lets you install software from the command line in an `sudo apt-get`-like way
+like you can do in Linux systems! It's super useful.
 
-  - `hub`
-    - `brew install hub`: https://github.com/github/hub/issues/978
-    - Add token for command line access so you can do `git pull-request` on the
-      command line: https://github.com/github/hub/issues/978
-    - `brew install git-lfs` for git large file storage
-  - `tree` to view directory trees from the command line
-  - `watch` to rerun commands forever, e.g. use `watch --interval 1 ls` to
-    rerun ls every second so you can see files get updated while some process
-    is running.
-  - `hg` for Mercurial source code repositories
-  - `cmake` for software that uses `cmake` instead of Make to build stuff
-  - [`gifsicle`](https://www.lcdf.org/gifsicle/) for making Gifs on the command line
-  - [`imagemagick`](https://www.imagemagick.org/script/index.php) for
-    manipulating image types on the command line
-  - `ruby` for managing Ruby Gems such as Jekyll and Travis-CI
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Here are all the programs I installed. For all of them, you install them with
+`brew install commandname`, e.g. `brew install hub` for the command `hub`.
+
+- [`hub`](https://hub.github.com/) which a command line wrapper for git that
+  lets you do pull requests and such from the command line!
+- Add
+  [GitHub access token ](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)token
+  for command line access so you can do `hub pull-request` on the command line.
+  To save this personal access token securely so you'll never have to type in
+  your password for the command line again, you need to do two things:
+  1. Open "Keychain" and add `https://github.com` as a website (the `https` is
+     important), using your username as the username and the token as the
+     "password"
+  2. Tell the command line git to use the
+     [credential-osxkeychain[(https://help.github.com/articles/caching-your-github-password-in-git/)
+     as a place to look for passwords.
+- `brew install git-lfs` for git large file storage
+- `tree` to view directory trees from the command line
+- `watch` to rerun commands forever, e.g. use `watch --interval 1 ls` to
+rerun ls every second so you can see files get updated while some process
+is running.
+- `hg` for Mercurial source code repositories
+- `cmake` for software that uses `cmake` instead of Make to build stuff
+- [`gifsicle`](https://www.lcdf.org/gifsicle/) for making Gifs on the command line
+- [`imagemagick`](https://www.imagemagick.org/script/index.php) for
+manipulating image types on the command line
+- `ruby` for managing Ruby Gems such as Jekyll and Travis-CI. Then ...
     - `brew install gem`
     - `brew install jekyll`
     - `brew install travis`
