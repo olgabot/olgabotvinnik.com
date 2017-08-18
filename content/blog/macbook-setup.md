@@ -154,10 +154,13 @@ is running.
 - [`gifsicle`](https://www.lcdf.org/gifsicle/) for making Gifs on the command line
 - [`imagemagick`](https://www.imagemagick.org/script/index.php) for
 manipulating image types on the command line
-- `ruby` for managing Ruby Gems such as Jekyll and Travis-CI. Then ...
+- `ruby` for managing Ruby Gems such as Jekyll and Travis-CI. Plus there's a
+  nice `gist` tool for creating gists from the command line Then ...
     - `brew install gem`
     - `brew install jekyll`
     - `brew install travis`
+  - `brew install gist` - nice tool for creating gists from files via the
+    command line
 
 ## Folder organization
 
