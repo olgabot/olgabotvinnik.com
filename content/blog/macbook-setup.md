@@ -14,7 +14,7 @@ everything I need to get started.
 - [Google Chrome Browser](https://www.google.com/chrome/browser/desktop/index.html)
 - ~Quicksilver~ - deprecated in favor of Spotlight Search
 - Add Russian language for input sources
-- Remove all Apple software from doc except preferences
+- Remove all Apple software from dock except "System Preferences"
 
 ## Development environment
 
@@ -29,7 +29,6 @@ ecosystem, which has great plugins e.g. for Markdown and `.gitignore` files.
 
 - Set margin columns to 79
 - Enable soft wrapping
-- `.ignore` plugin
 - Solarized theme: https://github.com/jkaving/intellij-colors-solarized
 
 Plugins:
@@ -40,6 +39,7 @@ Plugins:
 ### Terminal preferences
 
 - oh my zsh: https://github.com/robbyrussell/oh-my-zsh
+- Edit `~/.zshrc`:
   - Add a few plugins: `plugins=(git osx python)`
   - Uncomment a few lines:
 ```zsh
@@ -118,7 +118,9 @@ source activate kvector-env
 conda install ipykernel
 python -m ipykernel install --user --name myenv --display-name "Python 3.6 (kvector-env)"
 ```
-- Homebrew
+### Homebrew
+
+
   - `hub`
     - `brew install hub`: https://github.com/github/hub/issues/978
     - Add token for command line access so you can do `git pull-request` on the
@@ -133,7 +135,10 @@ python -m ipykernel install --user --name myenv --display-name "Python 3.6 (kvec
   - [`gifsicle`](https://www.lcdf.org/gifsicle/) for making Gifs on the command line
   - [`imagemagick`](https://www.imagemagick.org/script/index.php) for
     manipulating image types on the command line
-
+  - `ruby` for managing Ruby Gems such as Jekyll and Travis-CI
+    - `brew install gem`
+    - `brew install jekyll`
+    - `brew install travis`
 
 ## Folder organization
 
