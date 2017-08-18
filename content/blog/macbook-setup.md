@@ -153,20 +153,19 @@ Here are all the programs I installed. For all of them, you install them with
   2. Push to a repository, using your username (mine is `olgabot`) and the
   token as the password. From now on, your computer should remember your token
 
-    ```
-    ➜  manuscript git:(master) git push -u origin master
-    Username for 'https://github.com': olgabot
-    Password for 'https://olgabot@github.com': 
-    Counting objects: 636, done.
-    Delta compression using up to 8 threads.
-    Compressing objects: 100% (273/273), done.
-    Writing objects: 100% (636/636), 174.08 KiB | 0 bytes/s, done.
-    Total 636 (delta 350), reused 636 (delta 350)
-    remote: Resolving deltas: 100% (350/350), done.
-    To https://github.com/singlecell-batches/manuscript.git
-     * [new branch]      master -> master
-    Branch master set up to track remote branch master from origin.
-    ```
+  ```
+  ➜  manuscript git:(master) git push -u origin master   Username for 'https://github.com': olgabot
+  Password for 'https://olgabot@github.com': 
+  Counting objects: 636, done.
+  Delta compression using up to 8 threads.
+  Compressing objects: 100% (273/273), done.
+  Writing objects: 100% (636/636), 174.08 KiB | 0 bytes/s, done.
+  Total 636 (delta 350), reused 636 (delta 350)
+  remote: Resolving deltas: 100% (350/350), done.
+  To https://github.com/singlecell-batches/manuscript.git
+  * [new branch]      master -> master
+  Branch master set up to track remote branch master from origin.
+  ```
 
   3. Double check that it worked. Open "Keychain" and check that
   `https://github.com` is listed a website (the `https` is important)
