@@ -42,7 +42,7 @@ Plugins:
 - Edit `~/.zshrc`:
   - Add a few plugins: `plugins=(git osx python)`
   - Uncomment a few lines:
-```zsh
+```bash
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
@@ -64,14 +64,14 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 Add alias for Triton Supercomputing Cluster (TSCC):
 
-```zsh
+```bash
 # Alias to Triton Supercomputing Cluster (TSCC)
 alias tscc="ssh obotvinnik@tscc-login2.sdsc.edu"
 ```
 
 Never use `vi`/`vim`:
 
-```zsh
+```bash
 # >:)
 alias vim=emacs
 alias vi=emacs
