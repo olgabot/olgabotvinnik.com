@@ -43,6 +43,7 @@ Plugins:
 - Edit `~/.zshrc`:
   - Add a few plugins: `plugins=(git osx python)`
   - Uncomment a few lines:
+
 ```bash
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -114,6 +115,7 @@ installing math-heavy python a total breeze.
   - Make separate environments for each github repo
     - [Add kernels to Jupyter notebooks](https://ipython.readthedocs.io/en/latest/install/kernel_install.html)
     - For each environment, need to do:
+
 ```bash
 source activate kvector-env
 conda install ipykernel
