@@ -21,6 +21,61 @@ everything I need to get started.
 - Git/XCode (type `git` at the Terminal and mac OS Sierra knows you're a coder
   and installs tools for you)
 
+### (Interactive) Python Debugger Settings
+
+When I can, I prefer to use the interactive Python debugger (`ipdb`) over the
+built-in `pdb`. For example, when debugging
+[dobby](https://github.com/czbiohub/dobby) instead of running `python -m pdb
+dobby/cli.py`, I'll run `python -m ipdb dobby.cli.py`. To make `pdb` especially
+useful, I really like using these aliases which are super helpful to navigate
+the stack trace and print the variables you have around.
+
+```bash
+# Ned's .pdbrc from https://stackoverflow.com/questions/1623039/python-debugging-tips
+
+# Print a dictionary, sorted. %1 is the dict, %2 is the prefix for the names.
+alias p_ for k in sorted(%1.keys()): print "%s%-15s= %-80.80s" % ("%2",k,repr(%1[k]))
+
+# Print the instance variables of a thing.
+alias pi p_ %1.__dict__ %1.
+
+# Print the instance variables of self.
+alias ps pi self
+
+# Print the locals.
+alias pl p_ locals() local:
+
+# Next and list, and step and list.
+alias nl n;;l
+alias sl s;;l
+
+# Short cuts for walking up and down the stack
+alias uu u;;u
+alias uuu u;;u;;u
+alias uuuu u;;u;;u;;u
+alias uuuuu u;;u;;u;;u;;u
+alias dd d;;d
+alias ddd d;;d;;d
+alias dddd d;;d;;d;;d
+alias ddddd d;;d;;d;;d;;d
+```
+
+Copy the above text into the clipboard and paste it into your `~/.pdbrc` file
+with one command:
+
+```
+pbpaste > ~/.pdbrc
+```
+
+`pbpaste` stands for "Pasteboard" paste, which takes the contents of your
+clipboard so you can use it on the command line. There's also `pbcopy` which
+you can pipe `stdout` into the clipboard, e.g. to paste your `~/.pdbrc` file:
+
+
+```
+cat ~/.pdbrc | pbcopy
+```
+
 ### Integrated development environment (IDE)
 
 [PyCharm](https://www.jetbrains.com/pycharm/) is a fantastic IDE for Python
@@ -151,7 +206,7 @@ Here are all the programs I installed. For all of them, you install them with
   ```
 
   2. Push to a repository, using your username (mine is `olgabot`) and the
-  token as the password. From now on, your computer should remember your token
+  token as th1e password. From now on, your computer should remember your token
 
   ```
   ➜  manuscript git:(master) git push -u origin master   Username for 'https://github.com': olgabot
