@@ -6,7 +6,7 @@ tags: ['google drive', 'ubuntu']
 categories: ['programming']
 ---
 
-At work we're setting up a system so we can run Python scripts on files in
+At work we're setting up a system so we can run [Python scripts](https://github.com/czbiohub/dobby) on files in
 Google Drive, but these scripts need to be continuously running so they need to
 live on a server. To get this working, we needed to mount our Google Drive
 folder onto the Ubuntu machine and it was not as straightforward as I hoped. To
