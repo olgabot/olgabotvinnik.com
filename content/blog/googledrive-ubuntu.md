@@ -19,7 +19,7 @@ set up the Google Drive API, these are the steps we took.
 - [2. Get Client ID and Secret from Google Drive API](#2-get-client-id-and-secret-from-google-drive-api)
 - [3. Copy the downloaded JSON to the utility box](#3-copy-the-downloaded-json-to-the-utility-box)
 - [4. Activate the Google Drive API](#4-activate-the-google-drive-api)
-    - [4. Mount the Google Drive folder!](#4-mount-the-google-drive-folder)
+- [5. Mount the Google Drive folder!](#5-mount-the-google-drive-folder)
 
 
 
@@ -206,7 +206,7 @@ drwx------  2 utility utility  4096 Aug  9 11:54 .vnc/
 4. Click "Enable"
 
 
-### 4. Mount the Google Drive folder!
+## 5. Mount the Google Drive folder!
 
 
 Use your Client ID and Secret to authenticate in `-headless` mode for `google-drive-ocamlfuse`:
