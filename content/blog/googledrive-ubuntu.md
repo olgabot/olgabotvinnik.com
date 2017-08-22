@@ -2,8 +2,8 @@
 title: "Mounting Google Drive as a folder in Ubuntu"
 date: 2017-08-21T17:14:39-07:00
 draft: false
-tags = ['google drive', 'ubuntu']
-categories = ['programming']
+tags: ['google drive', 'ubuntu']
+categories: ['programming']
 ---
 
 At work we're setting up a system so we can run Python scripts on files in
