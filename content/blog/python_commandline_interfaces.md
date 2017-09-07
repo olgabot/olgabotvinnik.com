@@ -1,16 +1,15 @@
 ---
-title: "Macbook Setup"
-date: 2017-07-19T18:57:02-07:00
+title: "Side-by-side comparison of Python command line interfaces (CLIs)"
+date: 2017-08-28T18:57:02-07:00
 draft: true
 ---
 
-# Side-by-side comparison of Python command line interfaces (CLIs)
 
+-
 [Article advocating *against* `click`](http://xion.io/post/programming/python-dont-use-click.html)
 (2016-05-20)
-
-[Comparison of `argparse`, `docopt`, and `click`](https://realpython.com/blog/python/comparing-python-command-line-parsing-libraries-argparse-docopt-click/)
-(2015-09-06)
+- [Comparison of `argparse`, `docopt`, and `click`](https://realpython.com/blog/python/comparing-python-command-line-parsing-libraries-argparse-docopt-click/)
+  (2015-09-06)
 
 If you're like me, you wake up in the middle of the night while dreaming about
 your packages in terror, "But I have to write a command line interface!!?!?" In
@@ -22,24 +21,73 @@ For example, I have a small package called
 *k*-mers (DNA words) in specified places in the genome, so you can compare for
 enrichment between conditions. So far, I've only worked with it within Python
 and have meant to turn this into a command line interface for some time, but
-have always hesitated. For you, my dear reader, I have written out the very
-long `argparse` version (Yes I know it doesn't have to be this long but I like
-being thorough)
+have always hesitated. But for you, my dear reader, I have taken the plunge.
 
 
-## [argparse](https://docs.python.org/3/library/argparse.html)
+[TOC]: # "Table of Contents"
+
+# Table of Contents
+- [Anatomy of a CLI in Python](#anatomy-of-a-cli-in-python)
+    - [What is `__main__`?](#what-is---main--)
+    - [What is `#!/usr/bin/env python`?](#what-is-usrbinenv-python)
+    - [Simple CLI with a contrived example](#simple-cli-with-a-contrived-example)
+- [`argparse` from the Python standard library](#argparse-from-the-python-standard-library)
+    - [Example help output with `argparse`](#example-help-output-with-argparse)
+- [[click](http://click.pocoo.org/5/)](#click)
+    - [Code](#code)
+    - [Example command with no arguments in `click`](#example-command-with-no-arguments-in-click)
+    - [Example help output with `click`](#example-help-output-with-click)
+- [`fire` from Google](#fire-from-google)
+    - [Example output](#example-output)
+- [Conclusions](#conclusions)
+
+## Anatomy of a CLI in Python
+
+### What is `__main__`?
+
+In writing a command line interface in Python, you must always have the
+following line:
+
+```python
+if __name__ == "__main__":
+```
+
+What does this line do? If the special variable `__name__` for the file is set
+to `__main__`, that means that it was run from the command line.
+
+### What is `#!/usr/bin/env python`?
+
+If you want to run your command always with `python cli.py`, then you don't
+need this "crunch bang" ("`#`" for crunch and "`!`" for "bang") line. However,
+if you'd like to make your life a little simpler and run the file with
+`/.cli.py`, then you need to do some extra work. The `#!/usr/bin/env python`
+tells the operating system to use Python to interpret the text of the file into
+a compiled program. Then you can set the mode of the file as an executable
+using `chmod +x cli.py`. This may not be necessary with all CLIs but it is good
+practice as it unambiguously sets the language of the program you are creating.f
+
+### Simple CLI with a contrived example
+
+```python
+#!/usr/bin/env python
+
+if __name__ == "__main__":
+    # run cli
+```
 
 
 
-<table>
-  <tr>
-    <th><pre>argparse</pre></th>
-    <th><pre>click</pre></th>
-    <th><pre>fire</pre></th>
-  </tr>
-  <tr>
-    <td>
-<pre style="font-family:Consolas,Inconsolata,Courier,monospace;font-size:1em;line-height:1.3em;margin:1.2em 0;"><code class="python" style="background-color:#f8f8f8;border-radius:3px;border:1px solid #ccc;display:block;font-family:Consolas,Inconsolata,Courier,monospace;font-size:0.9em;margin:0 0.15em;overflow:auto;padding:0.5em 0.7em;white-space:pre;color:#444;">## --- Contents of commandline.py --- ##
+## `argparse` from the Python standard library
+
+[argparse](https://docs.python.org/3/library/argparse.html) is the currently
+accepted method of writing CLIs.
+
+I have written out the very long `argparse` version. I know it doesn't have to
+be this long but I like being thorough. The skeleton for this parser came from
+David Deamer at UCSC from the "Bioinformatics Algorithms" course.
+
+
+```python
 #!/usr/bin/env python
 
 import argparse
@@ -71,9 +119,9 @@ class CommandLine(object):
                                  'values of k).')
         parser.add_argument('--residues', default=kvector.kmer.DNA,
                             action='store', type=str,
-                            help=&quot;Which letters to search for in the fasta &quot;
-                                 &quot;file. Default is '{}'.&quot;.format(
-                                kvector.kmer.DNA))
+                            help="Which letters to search for in the fasta "
+                                 "file. Default is '{}'".format(
+                                 kvector.kmer.DNA))
         parser.add_argument('--threads', default=-1,
                             action='store', type=str,
                             help='Number of threads/processors to use for '
@@ -95,7 +143,7 @@ class CommandLine(object):
         '''
         import sys
 
-        print &gt;&gt; sys.stderr, str
+        sys.stderr.write(str)
         self.parser.print_usage()
         return 2
 
@@ -126,11 +174,9 @@ if __name__ == '__main__':
 
     except Usage, err:
         cl.do_usage_and_die()
-</code></pre>
-</td>
-    <td>Doe</td>
-  </tr>
-</table>
+```
+
+### Example help output with `argparse`
 
 
 
@@ -139,7 +185,7 @@ if __name__ == '__main__':
 
 ### Code
 
-Below are the contents of `commandline.py`
+Below are the contents of `commandline.py` for `kvector` written in `click.
 
 ```python
 #!/usr/bin/env python
@@ -149,7 +195,10 @@ import click
 
 import kvector
 
-@click.command()
+settings = dict(help_option_names=['-h', '--help'])
+
+
+@click.command(context_settings=settings)
 @click.argument('bed', type=click.Path(dir_okay=False))
 @click.argument('fasta', type=click.Path(dir_okay=False))
 @click.option('--intersect',
@@ -162,12 +211,13 @@ import kvector
               help="Which letters to search for in the fasta file. Default is "
                    "'{}'.".format(kvector.kmer.DNA))
 @click.option('--threads', default=-1,
-              help='Number of threads/processors to use for parallel processing'
-                   ' of a multithreaded job. Default is -1, which uses the '
-                   'maximum number of threads available, via the "joblib" '
-                   'module.')
+              help='Number of threads/processors to use for parallel '
+                   'processing of a multithreaded job. Default is -1, which '
+                   'uses the maximum number of threads available, via the '
+                   '"joblib" module.')
 @click.version_option(version=kvector.__version__)
-def cli(bed, fasta, intersect, kmer_lengths, residues, threads):
+def cli(bed, fasta, intersect=None, kmer_lengths='4,5,6',
+        residues=kvector.kmer.DNA, threads=-1):
     """Counts k-mers in the bed intervals and writes a csv to stdout
 
     \b
@@ -178,8 +228,8 @@ def cli(bed, fasta, intersect, kmer_lengths, residues, threads):
         to count
     fasta : str
         Path to the genome fasta file containing all chromosomes. Must be
-        indexed (usually has a `.fai` file in the same directory, created
-        using `faidx`).
+        indexed (usually has a `.fai` file in the same directory, usually
+        created using `samtools faidx`).
     """
 
     kmer_lengths = tuple(map(int, kmer_lengths.split(',')))
@@ -194,10 +244,45 @@ if __name__ == '__main__':
     cli()
 ```
 
-The `\b` is necessary to prevent rewrapping of the `Parameters` paragraph,
-otherwise it would all be forced to flow together.
+Notice that in `click`, there is a strong distinction between `arguments`,
+which are positional and `options` which use flags. Below are some more
+distinctions that `click` makes with regards to arguments vs options.
 
-### Example help output
+**Arguments**
+- Positional
+- Required
+- Documented in the docstring, cannot take `help` as an argument in `click.argument()`
+  - Note: The `\b` is necessary in the docstring to prevent rewrapping of the
+    `Parameters` paragraph, otherwise it would all be forced to flow together.
+
+**Options**
+- Not positional
+- Use flags
+- Documented as the `help` argument in the `click.option()` initialization
+
+
+Other "gotchas" in click:
+
+- `--help` is the default help flag, if you want `-h` to also indicate help
+  then you need to pass `dict(help_option_names=['-h', '--help'])` to `click.command()`
+-
+
+This is
+a very "opinionated" view of command line interfaces and if you don't mind
+using this style of inputs, then `click` is much easier to use than `argparse`.
+
+
+### Example command with no arguments in `click`
+
+```
+$ kvector
+Usage: kvector [OPTIONS] BED FASTA
+
+Error: Missing argument "bed".
+```
+
+
+### Example help output with `click`
 
 ```
 $ kvector --help  
@@ -230,7 +315,9 @@ Options:
   --help               Show this message and exit.
 ```
 
-## [fire]() from Google
+## `fire` from Google
+
+[fire]()
 
 ### Example output
 

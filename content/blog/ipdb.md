@@ -44,12 +44,6 @@ E  1285544  1661882   694574  693239  4044818
 ```
 
 
-## How to use the Python debugger within Python code
-
-
-```
-import ipdb ; ipdb.set_trace()
-```
 
 
 ## How to use the Python debugger for command line apps
@@ -110,4 +104,37 @@ you can pipe `stdout` into the clipboard, e.g. to paste your `~/.pdbrc` file:
 
 ```
 cat ~/.pdbrc | pbcopy
+```
+
+
+## How to use the Python debugger within Python code
+
+
+```python
+import pdb; pdb.set_trace()
+means = fluorescence[standards_col].groupby(standards).mean()
+regressed = linregress(means.index, means)
+```
+
+Here we
+
+```
+-> means = fluorescence[standards_col].groupby(standards).mean()
+(Pdb) means
+*** NameError: name 'means' is not defined
+(Pdb) nl
+KeyError: 8.0
+> /Users/olgabot/code/dobby/dobby/convert.py(27)_fluorescence_to_concentration()
+-> means = fluorescence[standards_col].groupby(standards).mean()
+ 22  	    """
+ 23  	    if isinstance(standards, str):
+ 24  	        standards = [float(x) for x in standards.split(',')]
+ 25  	
+ 26  	    import pdb; pdb.set_trace()
+ 27  ->	    means = fluorescence[standards_col].groupby(standards).mean()
+ 28  	    regressed = linregress(means.index, means)
+ 29  	
+ 30  	    if regressed.rvalue < r_minimum:
+ 31  	        raise ValueError(
+ 32  	            f'{platename} Regression failed test: '
 ```

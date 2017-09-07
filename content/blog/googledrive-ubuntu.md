@@ -29,6 +29,8 @@ set up the Google Drive API, these are the steps we took.
 [`google-drive-ocamlfuse`](http://www.omgubuntu.co.uk/2017/04/mount-google-drive-ocamlfuse-linux)
 is a command-line client for interacting with Google Drive in Ubuntu.
 
+First, add the repository to `apt`:
+
 ```
 utility@ds06:~$ sudo add-apt-repository ppa:alessandro-strada/ppa
 [sudo] password for utility:
@@ -46,6 +48,12 @@ gpg: key F639B041: public key "Launchpad PPA for Alessandro Strada" imported
 gpg: Total number processed: 1
 gpg:               imported: 1  (RSA: 1)
 OK
+```
+
+Then, update apt and install `google-drive-ocamlfuse`
+
+
+```
 utility@ds06:~$ sudo apt update && sudo apt install google-drive-ocamlfuse
 Hit:1 http://us.archive.ubuntu.com/ubuntu xenial InRelease
 Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
