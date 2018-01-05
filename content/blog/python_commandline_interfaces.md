@@ -18,10 +18,11 @@ help documentation is called `argparse`. But, it can be quite clunky to d this.
 
 For example, I have a small package called
 [`kvector`](https://github.com/olgabot/kvector/) which can be used to count
-*k*-mers (DNA words) in specified places in the genome, so you can compare for
-enrichment between conditions. So far, I've only worked with it within Python
-and have meant to turn this into a command line interface for some time, but
-have always hesitated. But for you, my dear reader, I have taken the plunge.
+short (4-6nt) *k*-mers (DNA words) in specified places in the genome, so you
+can compare for enrichment between conditions. So far, I've only worked with it
+within Python and have meant to turn this into a command line interface for
+some time, but have always hesitated. But for you, my dear reader, I have taken
+the plunge.
 
 
 [TOC]: # "Table of Contents"
