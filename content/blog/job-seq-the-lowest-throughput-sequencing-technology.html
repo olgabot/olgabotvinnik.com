@@ -1,0 +1,1220 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="date" content="2018-04-09T12:08:50-07:00">
+<meta name="tags" content="[job, phd, bioinformatics, computational biology]">
+<meta name="categories" content="[]">
+<meta name="draft" content="true"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>"Job Seq: The Lowest Throughput Sequencing Technology"</title></head><body><article class="markdown-body"><p>[image: ]</p>
+<p>This post is about getting my experience in a job after finishing my PhD. I&rsquo;ve been asked multiple times by several people so it&rsquo;s <a href="https://twitter.com/drob/status/928447584712253440">time to write a blog post</a>.</p>
+<p>In fact, I gave a <a href="https://twitter.com/olgabot/status/969649021345083398">talk</a> about it at UC Davis (slides below). If you&rsquo;re interested, <a href="https://www.youtube.com/watch?v=GzbWAh4D4C8">here is the video</a>.</p>
+<iframe src="https://www.slideshare.net/olgabotvinnik/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+
+<p>Before I get started I should explain what <a href="https://en.wikipedia.org/wiki/Open_science">open science</a> means to me. I believe that science will advance if everyone is given access to the data and code behind the result as soon as possible. I don&rsquo;t want to wait for the paper to be published to use your code or play with your data. I want to see it <em>before</em> it&rsquo;s publication-ready. I don&rsquo;t want to spend my time reinventing the wheel, rewriting code you already wrote just because you didn&rsquo;t share it. Thus, joining a place that had open science as a core value was very important to me.</p>
+<p>Spoiler alert: I eventually ended up at <a href="https://www.czbiohub.org/">Chan Zuckerberg Biohub</a>.</p>
+<h2 id="rough-timeline"><a name="user-content-rough-timeline" href="#rough-timeline" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Rough Timeline</h2>
+<p>Here&rsquo;s a rough timeline of my job search:</p>
+<ul>
+<li><em>December 2017</em> - <a href="https://github.com/olgabot/latex-moderncv">Prepared CV</a></li>
+<li><em>January 2018</em> - Applied to postdocs, then scrapped that and applied to industry jobs</li>
+<li><em>February 2018</em> - More industry aplications</li>
+<li><em>March 2018</em> - Phone interviews</li>
+<li><em>April 2018</em> - Onsite interviews</li>
+<li><em>May 2018</em> - <a href="https://twitter.com/olgabot/status/863583986970353664?lang=en">Defended</a> May 12th &amp; started new job May 29th!</li>
+</ul>
+<h2 id="prepping-cvcover-letter-and-applying-to-postdocs"><a name="user-content-prepping-cvcover-letter-and-applying-to-postdocs" href="#prepping-cvcover-letter-and-applying-to-postdocs" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Prepping CV+Cover Letter and applying to postdocs</h2>
+<p>Over the holiday break, I went home to family in Oregon and started preparing my CV and writing cover letters. In preparing my CV, I felt super inadequate. I felt my CV didn&rsquo;t represent all the work I did over the past 4 years - I didn&rsquo;t have enough publications, I didn&rsquo;t have a Nature/Science/Cell paper, the usual academic woes. The worst was when I started comparing myself to people from college and found an outlier who was already on the <em>tenure-track job market</em>, so basically light-years ahead of where I was. I felt like that could have been me if things had worked out differently for me.</p>
+<p>I decided if I was going to do a postdoc, it had to follow the following parameters, in priority order (most imoprtant first):</p>
+<ol>
+<li>Be in a location near a Google office that had my partner&rsquo;s product area. This was extremely high priority for me as we had spent the entirety of my post-undergrad career as a long-distance relationship.</li>
+<li>Be in a lab or environment that was pro-open science, pro-open source software development. This means posting preprints, openly developing code on GitHub before the paper is published, and posting the data before the paper is published.</li>
+<li>Work on single-cell analyses, since I wanted to continue studying molecular and cellular heterogeneity.</li>
+<li>PI was an HHMI Investigator (proxy for quality) <strong>and</strong> was vetted as being a great person to work with, and hired wonderful people. Basically, I created a shortlist of people I wanted to work with and emailed it out to previous mentors who pointed out who was both a &ldquo;great person and great scientist.&rdquo;</li>
+<li>Ideally, the lab would write &ldquo;simple&rdquo; methods papers that actually explain the math behind the paper, rather than shoving all the equations to the supplementary text which is a pet peeve of mine. 😞</li>
+</ol>
+<p>Given these constraints, the only way I felt the open science and open source criteria could be reliably enforced was to be part of either the <a href="http://escience.washington.edu/get-involved/postdoctoral-fellowships">University of Washington (UW) eScience Institute</a> or the <a href="https://bids.berkeley.edu/call-data-science-fellow-applications">Berkeley Institute for Data Science (BIDS)</a> Postdoctoral Fellowship programs. I also considered applying to the <a href="http://www.hhmi.org/programs/hanna-h-gray-fellows-program">HHMI Hanna H. Gray Fellows Program</a> since it would allow me to pursue my open science agenda regardless of the advisor, but ended up not applying because the labs I wanted to be in already had someone applying.</p>
+<p><em>Side note:</em> Advisors expect your cover letter + CV as a single document. My <a href="https://github.com/olgabot/latex-moderncv">LaTeX ModernCV GitHub Repo</a> does this, and <a href="https://github.com/olgabot/latex-moderncv/blob/master/potential-advisors/example-advisor.tex">here</a> is an example cover letter. It follows the <a href="https://academia.stackexchange.com/a/5513">&ldquo;Salutation, me, you, us together, talk to you soon, closing&rdquo; format</a>.</p>
+<p>Since the eScience application deadline was in January, I emailed potential mentors at UW and started writing an application right away. It some time to hone the proposal and I was quite proud of the final product. The BIDS deadline wasn&rsquo;t for a few months but I sought out mentors at UCSF/Berkeley, and one of them mentioned that Chan Zuckerberg (CZ) Biohub may be a better fit for me.</p>
+<p>Three important pieces of information surfaced during my postdoc search:</p>
+<ol>
+<li>Chan Zuckerberg Initiative (CZI), announced a few months before I started applying, had claimed they would be pro-open science and open source software development. I didn&rsquo;t believe that they were serious about open science until I heard through my network that they hired <a href="http://www.jeremyfreeman.net/">Jeremy Freeman</a>, a friend of mine from the open science/open source world to head their computational biology. Then I believed that they were serious about making a difference in scientific research through open source and open science.</li>
+<li>CZ Biohub was going to be doing both the in-the-trenches biological research <em>and</em> be pushing the boundaries of open science.</li>
+<li>Which meant I could still fulfill my goals of working on open science and actually get paid an industry PhD-level salary rather than a postdoc one.</li>
+</ol>
+<p>So I stopped applying to postdocs.</p>
+<h2 id="no-more-postdocs"><a name="user-content-no-more-postdocs" href="#no-more-postdocs" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>No more postdocs</h2>
+<p>At the industry job, I still wanted to do scientific research. Keeping this in mind, here was my criteria for an industry job:</p>
+<ol>
+<li>Pro-open source, pro-open science. The company needed to publish its code as open-source software so others may inspect and improve upon it.</li>
+<li>Small, Startup-ish, &lt;200 people. I wanted to be in a place that I could be a part of the founding team and influence the culture.</li>
+<li>Communicate scientific findings outside of the company. Meaning, the science doesn&rsquo;t stay locked within the company. This could be papers or blog posts.</li>
+</ol>
+<p>Of the ~10 companies I applied to, I actually heard back from 7. The companies for which I have nothing negative to say, are named, whereas the rest are anonymized.</p>
+<ol>
+<li>Startup A</li>
+<li>Startup B</li>
+<li>Startup C</li>
+<li><a href="http://www.synthego.com/">Synthego</a></li>
+<li><a href="http://immuneering.com/">Immuneering</a></li>
+<li><a href="https://www.chanzuckerberg.com/">Chan Zuckerberg Initiative</a></li>
+<li><a href="https://www.czbiohub.org">Chan Zuckerberg Biohub</a></li>
+</ol>
+<p>At all the places I applied, the job title was approximately &ldquo;Bioinformatics Scientist,&rdquo; &ldquo;Computational Biologist,&rdquo; or &ldquo;Biological Data Scientist.&rdquo;</p>
+<h3 id="overall-job-application-interview-flow"><a name="user-content-overall-job-application-interview-flow" href="#overall-job-application-interview-flow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Overall job application + interview flow</h3>
+<ol>
+<li>Phone interview with recruiter<br />
+  - Send thank you email within 24 hours!</li>
+<li>Technical phone interview with hiring manager<br />
+  - Send thank you email within 24 hours!</li>
+<li>Onsite interview, typically with a talk<br />
+  - Send thank you email within 24 hours!</li>
+</ol>
+<p>Below are some example &ldquo;Thank you&rdquo; emails I sent for my Biohub stuff.</p>
+<h4 id="example-thank-you-email-for-phone-interview"><a name="user-content-example-thank-you-email-for-phone-interview" href="#example-thank-you-email-for-phone-interview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Example &ldquo;Thank you&rdquo; email for phone interview</h4>
+<blockquote>
+<p>Hi Jim, <br />
+Thank you do much for taking with me yesterday! I&rsquo;m very excited about Biohub&rsquo;s work and hope I can be a part of it.<br />
+Warmest,<br />
+Olga</p>
+</blockquote>
+<h4 id="example-thank-you-email-for-onsite-interview"><a name="user-content-example-thank-you-email-for-onsite-interview" href="#example-thank-you-email-for-onsite-interview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Example &ldquo;Thank you&rdquo; email for onsite interview</h4>
+<blockquote>
+<p>Hi Jim, <br />
+Thank you again for meeting with me today. You and everyone else have confirmed that CZ Biohub is the incredible, unique, open, and ambitious place I thought it was. I&rsquo;m so excited to hear back from you. <br />
+Warmest, <br />
+Olga</p>
+</blockquote>
+<h3 id="startup-a"><a name="user-content-startup-a" href="#startup-a" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Startup A</h3>
+<p>I didn&rsquo;t get past the technical interview here. The interviewer asked me about alignment and seemed unconvinced that I knew anything, and asked me to explain how Smith-Waterman local alignment works. I said &ldquo;okay&hellip;&rdquo; and dug into my memory from four years ago (first year of grad school)! </p>
+<p>They seemed annoyed and unimpressed with my explanation and demanded, </p>
+<blockquote>
+<p>(Interviewer): What is the difference between a dynamic programming algorithm and a regular one?</p>
+<p>(Me): You&rsquo;re constantly updating the latest answer.</p>
+<p>(Interviewer): No. The Nth answer depends on the (N-1)th answer.</p>
+</blockquote>
+<p>In my mind, I loudly sighed and said &ldquo;That&rsquo;s basically what I said, but not in a formula!!&rdquo; Anyway, there were a bunch of red flags in the interview:</p>
+<ul>
+<li>Interviewer shows off that they&rsquo;re smarter than you</li>
+<li>When I asked, &ldquo;What&rsquo;s your management style?&rdquo; they responded, &ldquo;What do you mean?&rdquo; And suddenly I had to explain what their job really was&hellip; The eventual answer was still bad, &ldquo;Well I stand around at my desk and people ask me questions.&rdquo; No proactive interaction with subordinates, no plan for team building and within-team interaction, nothing.</li>
+</ul>
+<p>So really, I was glad they didn&rsquo;t think I was a good &ldquo;fit.&rdquo;</p>
+<h3 id="startup-b"><a name="user-content-startup-b" href="#startup-b" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Startup B</h3>
+<p>This place touted itself as attracting amazing scientists, and certainly both the academic pedigree (where they trained) and the scholarly pedigree (where they published) were impeccable by modern standards. But science is not enough.</p>
+<p>My talk went okay. They seemed unimpressed by my computational methods and I had to pull out my supplementary slides to show the rigorous testing I did.</p>
+<p>Meeting with the C-level (CEO, Chief Scientific Officer, etc) people, they touted the company as <a href="https://en.wikipedia.org/wiki/Bell_Labs">&ldquo;Bell Labs&rdquo;</a> for biology, meaning a place that would lay the groundwork for the next century of biological research. They said there&rsquo;s no place like here, that I would have freedom to work on cutting edge scientific problems with incredible compute resources. One of the C-levels had orchestral music playing in their office and I said it sounded nice. Since in my &ldquo;about me&rdquo; slide, I mention that I play cello, they asked if I knew the piece and was shocked and disappointed that I didn&rsquo;t know this opera or violin concerto - whatever it was, it wasn&rsquo;t a cello piece that I would have listened to so I can play it better. Anyway, they made me feel bad and stupid that I didn&rsquo;t know it was XYZ concerto and that I didn&rsquo;t prolifically listen to classical music outside of my repertoire, but look&hellip; I am also a hip hop dancer. I listen to hip hop and R &amp; B, and I don&rsquo;t have time to listen to every classical piece out there! I played it off as I wasn&rsquo;t as &ldquo;cultured&rdquo; as them.</p>
+<p>From the my-level people, I got a different story. Everyone who was there for three or fewer months was really happy and excited about the potential research. There was only one person who has been there longer, and they took me outside for a walk (red flag: didn&rsquo;t want to be near coworkers), and gave me the real scoop. They told me that they&rsquo;re basically writing single-cell RNA-seq pipelines (aka really boring work) instead of exploring scientific questions, and that the leadership doesn&rsquo;t really listen to them.</p>
+<p>I did not get an offer from this company.</p>
+<p>Red flags:</p>
+<ul>
+<li>Nearly everyone was from the same two R1 schools as the C-levels, suggesting to me that one or both of these were true, and neither of which were any good:<br />
+  1. They hired their friends<br />
+  2. They were elitist and didn&rsquo;t see people outside of their circle as being valuable</li>
+<li>Interviewer tries to be smarter than you (the concerto incident)</li>
+<li>C-level people are happy but after a 3-month &ldquo;honeymoon&rdquo; period, my-level people weren&rsquo;t</li>
+</ul>
+<h3 id="startup-c"><a name="user-content-startup-c" href="#startup-c" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Startup C</h3>
+<p>The phone interview went well, though they asked some odd questions like &ldquo;Name some Python packages you use,&rdquo; presumably to filter out people who put <em>Python - Expert</em> on their CV but don&rsquo;t use it often or know how to write a Python package.</p>
+<p>My talk went well, they really liked it. We then had lunch at a nearby restaurant, where it was kinda awkward. It seemed like they didn&rsquo;t know each other that well so I asked if they go out to eat together often and got mumbles in response. It seemed they only went to eat as a team to put on a show for interviews but didn&rsquo;t normally hang out together. It may seem minor to some, but to me it&rsquo;s important to be polite to waitstaff and say &ldquo;Thank you&rdquo; when they refill your water or serve your food. I noticed I was the only one saying &ldquo;thank you&rdquo; when they refilled my water, and I was the first to thank the restaurant as we were leaving, then the rest of the group chimed in.</p>
+<p>During the interview, I also got some simple statisical questions about how many times you&rsquo;d need to flip a coin to know if it&rsquo;s biased or not, which is something you learn very early on in grad school. I pointed out that if it&rsquo;s not very biased (e.g. 55:45), you&rsquo;d have to do a lot more trials than if it was 99:1, which the interviewer said most people don&rsquo;t pick up on (??)</p>
+<p>The manager was great. They had a really fleshed out plan for how they wanted the team to grow, and were proactive in making sure their people were taken care of. </p>
+<p>While on the people side, the pros outweighed the cons, this company wasn&rsquo;t huge on open source. They had some code &ldquo;available&rdquo; but it was just a source download, there were a bunch of mystery binaries to create their proprietary formats, and there was no way for users to collaboratively submit changes upstream via GitHub or BitBucket. They claimed it was a &ldquo;support burden.&rdquo;</p>
+<p>I ended up getting an offer from this company.</p>
+<h4 id="red-flags"><a name="user-content-red-flags" href="#red-flags" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Red flags:</h4>
+<ul>
+<li>Team didn&rsquo;t seem to know each other</li>
+<li>Not as polite as I wanted to waitstaff</li>
+<li>Weirdly simple questions on interview</li>
+<li>Claimed to be open source but wasn&rsquo;t really</li>
+</ul>
+<h3 id="synthego"><a href="http://www.synthego.com/">Synthego</a></h3>
+<p>Synthego makes synthetic oligonucleotides (&ldquo;oligos&rdquo;), primarily for CRISPR/Cas9 experiments. By purchasing oligos from Synthego, scientists typically save months of time that they&rsquo;d otherwise spend biologically synthesizing (and debugging&hellip;) the oligos themselves through bacteria and cell lines.</p>
+<p>The Chief Scientific Officer (CSO), <a href="http://richstoner.github.io/#/">Rich Stoner</a> and I had met at a <a href="http://codeneuro.org/">Code Neuro</a> conference. I contacted him when I was job hunting and applied to their &ldquo;Exceptional Human&rdquo; job posting.</p>
+<p>They were in the process of growing from 20-100 people, which apparently is the <a href="https://getlighthouse.com/blog/company-growth-everything-breaks-25-employees/">most difficult thing for a startup to do</a> (see also: <a href="http://firstround.com/review/The-Dos-and-Donts-of-Rapid-Scaling-for-Startups/">http://firstround.com/review/The-Dos-and-Donts-of-Rapid-Scaling-for-Startups/</a>) I got a real taste of their growth craziness because they were in the middle of moving from one building to another. People were literally sitting at completely different desks from when my interview started and ended!</p>
+<p>Talking with the C-level people, they really knew what they were doing. It&rsquo;s not their first startup. They came from both tech (SpaceX) and biotech (Zymergen, Applied Biosystems) startups and knew what it took to grow a company. They had exceptional answers to &ldquo;how will you maintain culture when you grow?&rdquo; and other growth questions. They had amazing vision for where they saw the company being in 5, 10 years and I truly admired them for their gusto.</p>
+<p>Talking with their CFO was confusing for me because they said Silicon Valley things like &ldquo;this is a high-growth opportunity,&rdquo; aka you can make lots of $$ if you get in now. Since I really didn&rsquo;t know what to ask, I asked, &ldquo;What questions would you ask if you were in my position?&rdquo; which worked well.</p>
+<p>Since I had a lot of personal goals I wanted to achieve, specifically with dance &ndash; I tried out for the Golden State Warriors Dance Team in 2017 and am currently on a <a href="https://www.facebook.com/SoulForceDanceCo/">hip hop dance company</a> &ndash; and I wasn&rsquo;t ready to sacrifice them for the love of the startup. So we mutually agreed not to pursue an offer.</p>
+<h4 id="green-flags"><a name="user-content-green-flags" href="#green-flags" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Green flags:</h4>
+<ul>
+<li>Great people, great team</li>
+<li>Not the founders&rsquo; first startup</li>
+<li>Liked the answers they gave for &ldquo;how will you maintain culture when you grow?&rdquo;</li>
+<li>Awesome projects and vision for the future</li>
+</ul>
+<h3 id="immuneering"><a href="http://immuneering.com/">Immuneering</a></h3>
+<p>Immuneering is a small bioinformatics consulting company in Boston and New York that works with academics and industry. Recently, they have a <a href="https://www.nature.com/articles/srep14324">paper in neurodegenerative disease</a> that I found extremely interesting because it used openly available data and highlighted a gene I knew and loved: <em>SNAP25</em>.</p>
+<p>One of the VPs, <a href="https://www.linkedin.com/in/beckykusko">Rebecca Kusko</a> and I were homework buddies back in undergrad. She finished her PhD a few years before me and sent me an annual job posting request which I sent out to our grad student mailing list. Also, I had reached out to the founder before I left Boston and expressed interest in working for Immuneering, but I was on my way to UC Santa Cruz so it didn&rsquo;t make sense.</p>
+<p>The phone and onsite interview went great. They flew me out to Boston for the onsite and I really loved the team. During my talk, I made sure to point out one of the &ldquo;interesting&rdquo; genes in our research, <em>SNAP25</em> that they also recently published on. I saw the room crack a smile when that slide went up :)</p>
+<p>The team dynamic was really great. They truly knew each other and cracked small jokes together. They described the end of a project as &ldquo;appreciation&rdquo; ping pong which went something like this:</p>
+<blockquote>
+<p>Someone: Sansa, that plot really drove the point home to illuminate the biological result</p>
+<p>Sansa: Oh, I couldn&rsquo;t have done it without Arya&rsquo;s analysis of the literature</p>
+<p>Arya: Oh, I couldn&rsquo;t have done it without Ygritte&rsquo;s plotting package</p>
+<p>Ygritte: Oh, I couldn&rsquo;t have done it without Danerys&rsquo;s package manager</p>
+</blockquote>
+<p>&hellip; you get the point. I loved that they were so vocal and appreciative of each others&rsquo; contributions and that it wasn&rsquo;t a solo effort.</p>
+<p>Since location was extremely important to me and they currently had positions in Boston and New York, but not San Francisco, we mutually decided not to pursue an offer.</p>
+<h4 id="green-flags_1"><a name="user-content-green-flags_1" href="#green-flags_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Green flags:</h4>
+<ul>
+<li>&ldquo;Appreciation ping-pong&rdquo;</li>
+<li>Published papers on their findings using openly available data</li>
+<li>Women in prominent positions in the organization</li>
+</ul>
+<h3 id="chan-zuckerberg-initiative-czi"><a href="http://chanzuckerberg.com">Chan Zuckerberg Initiative</a> (CZI)</h3>
+<p>CZI was actually the first place I applied. </p>
+<p>A few months before I started applying to postdocs, I watched the <a href="">CZI announcement</a> in October 2016 &ndash; plus anything else I could get my hands on about the organization, e.g. this town hall by Joe Derisi about the CZ Biohub Investigators &ndash; and was compelled by the lofty mission of curing all disease by 2100. It seems an outrageous goal to most, but as Cori Bargmann put the last 100 years of medical advancses into perspective, I believed it was possible. But I knew that in the current climate of &ldquo;Publish or Perish,&rdquo; and the [overly strong] reliance on publishing in high <a href="link to titus brown post on how impact factors are bogus">&ldquo;impact factor&rdquo;</a> journals for promotion and grants was BS and the system needed a jump start. The fact that <a href="link">CZI donated to the biology preprent server BioRxiv</a> was an indication to me that they actually &ldquo;walked&rdquo; the talk of open science, but I wasn&rsquo;t convinced from an open source perspective. I hadn&rsquo;t heard of Cori Bargmann before and I didn&rsquo;t know her as publishing open source software for scientific researchers.</p>
+<p>Fast forward to January 2017, and I participated in the, stay with me here, <a href="">&ldquo;Reproducible Research Curriculum Hackathon&rdquo;</a> led by <a href="">Tracy Teal</a> and <a href="">Erin Becker</a> of Data Carpentry. At that event, I found out through the open source grapevine that Jeremy Freeman had been hired at CZI as their Directory of Computational Biology. I knew Jeremy through <a href="">Nick Sofroniew</a>, with whom I did a <a href="">summer research program at Janelia Farm</a>. Nick invited me to speak at the <a href="">CodeNeuro</a> conference he and Jeremy were organizing in New York City. I agreed, and then liked the conference so much that I <a href="">blogged about it</a> and helped with organizing the San Francisco version of the conference. I liked the structure &ndash; there were enough talks but not too many, there was enough time for socializing, and importantly there was time for actual <em>coding</em> on the second day of the conference. I taught a <a href="">gitgoing</a> tutorial the first year with <a href="">Ben Sussman</a> and an <a href="">Advanced Pandas</a> tutorial the second year. So I knew that Jeremy was dedicated to open source software in science, and started googling &ldquo;Jeremy freeman chan zuckerberg initiative&rdquo; like crazy, and applied to the &ldquo;Computational Biologist&rdquo; job posting on CZI before I realized I could just email him. I heard back from him and got started with the hiring process.</p>
+<p>In Februrary I had my phone interview with the recruiter. He was a real &ldquo;recruiter&rdquo; in that he was way chattier than anyone I had encountered in the past few years I was in grad school. He pointed out that I volunteered with &ldquo;Science Club for Girls&rdquo; in Boston where I co-taught a biology afterschool curriculum to 2nd graders, which aligns with the overall mission of CZI. I liked that he said they have a &ldquo;no asshole rule,&rdquo;  &ndash; when I told a to-be-unnamed family friend about this &ldquo;rule&rdquo;, said that his job should at least have a &ldquo;no <em>more</em> assholes rule&rdquo; &ndash; and it seemed they are really focused on having great people who are aligned with the mission, rather letting people through if they are &ldquo;rockstars,&rdquo; even if they have bad people skills.</p>
+<p>For the onsite interview, I prepared for a technical software engineer interview with my partner, who is a software engineer at Google. I worked through exercises in <a href="">Cracking the Coding Interview by &hellip;</a>, and refreshed my memory of powers of 2. Since I had the interview schedule and names of my interviewers, I googled them and took some notes so I knew who would be giving me technical questions. We role-played - my partner pretended to be one of my interviewers, and I wrote out the code on a whiteboard. It helped a lot to boost my confidence for the interview, because I otherwise felt totally unprepared for technical coding quesions.</p>
+<p>The actual onsite interview came a few weeks later. The morning of, my interview started at 11am but I woke up at 7. I did a workout on YouTube and had a leisurely breakfast at a cafe nearby where I met a nice woman from Alaska and told her this was my dream job. I was done by 10 and was so nervous before my interview that I needed to walk off my nervous energy. I walked up and down University Ave in Palo Alto three times until 10:30, when I felt it was reasonable to come in to my interview. </p>
+<p>During the interview, I didn&rsquo;t have any technical coding questions! I talked about my grad school research and my passion for open source software, the Python packages I had written, and what I thought the <a href="http://humancellatlas.org">Human Cell Atlas</a> (a project that CZI invested in) would achieve for health. It seemed like a really good fit culture and mission-wise, but my interviewers said things I didn&rsquo;t fully understand about the job, such as that I would &ldquo;define strategy&rdquo; which sounded weird and managementy to me. I slowly realized that the job they wanted me to do more high-level than I was used to, and that I wouldn&rsquo;t be doing so much actual research in my day-to-day.</p>
+<p>I followed up with a thank you email to my recruiter, who (I hope) passed it along to my interviewers. I wasn&rsquo;t sure how to go from there because I really wanted to continue doing research. I ended up applying to the CZ Biohub Computational Biologist job posting in the interim. Eventually, I got lunch with Jeremy and we talked more about the job and I said at this point, I&rsquo;m more interested in doing the research itself rather than seeing it from afar. </p>
+<p>Since I wanted to be closer to the research and actually get my hands dirty with data and code, we mutually decided that the Biohub would be a better fit for me, and so I didn&rsquo;t get an offer.</p>
+<h4 id="green-flags_2"><a name="user-content-green-flags_2" href="#green-flags_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Green flags:</h4>
+<ul>
+<li>&ldquo;No asshole rule&rdquo;</li>
+<li>President of Science is a woman (arbitrary to some but important to me)</li>
+</ul>
+<h3 id="chan-zuckerberg-biohub-biohub"><a href="http://czbiohub.org/">Chan Zuckerberg Biohub</a> (&ldquo;Biohub&rdquo;)</h3>
+<p>Honestly, this was my &ldquo;dream&rdquo; and &ldquo;reach&rdquo; job that I totally didn&rsquo;t think I was going to get.</p>
+<p>I applied to the &ldquo;Computational Biology&rdquo; position with a combined <a href="https://github.com/olgabot/latex-moderncv">Cover Letter + CV</a> pdf (like I did to everything else). Jim Karkanias (now my boss!), the head of Data Sciences, got back to me and we scheduled a &ldquo;phone&rdquo; interview over Skype. I emphasized my interest in open source software, open science, and working on Cell Atlas-style projects. Again, it was a really good fit culture and mission-wise so I was really excited to hear about the potential projects. The team was also just Jim at the time, so I was excited to get on the ground floor of the organization and push my own open science agenda. I followed up with a thank-you email that day.</p>
+<p>I was excited to receive an invitation for an onsite interview. The morning of the interview, I scheduled <a href="https://github.com/tjluoma/John-Cleese-on-Creativity/blob/master/Transcript.markdown#set-aside-about-90-minutes-not-all-morning-1653">1.5 hour without interruptions</a> (no messages of any kind - no email, no phone) to work on my dissertation at the nearby UCSF Children&rsquo;s Hospital. Once it finished, I checked my email and saw that one of the people I was interviewing with, Steve Quake, had to leave early and asked if I could come in now. I immediately jumped to it and power-walked over to Biohub! I met briefly with Steve to talk about my work in single-cell alternative splicing and open science before he had to leave. I met then met with some group leaders, a few technicians, and Jim. I think Biohub was at about 20 people at the time so it was pretty empty (we&rsquo;re now at ~80). I had prepared a talk as I had given at other places but didn&rsquo;t end up giving it, only referencing its slides. One of the group leaders who I now work closely with, asked me to define what a <em>&ldquo;cell type&rdquo;</em> was and I answered that it basically wasn&rsquo;t defineable mathematically with the tools we have now, since we can&rsquo;t say that in Euclidean space of log-transformed counts, if two cells are a distance X or further apart, they are a different cell type. I think I focused on defining cell type as part of a hierarchical tree of the whole dataset.</p>
+<p>I was pretty nervous the whole time and was really excited to hear that I received an offer! Coming into this interview, I already had an offer from Startup C and mentioned it during my interview. I negotiated a higher salary than what Startup C offered which sweetened the deal for me since Biohub was where I wanted to work. I wanted to start right away so I got a start date of May 29th, just a few weeks after my May 12th defense date!</p>
+<h4 id="green-flags_3"><a name="user-content-green-flags_3" href="#green-flags_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Green flags:</h4>
+<ul>
+<li>Excitement about open science/open source</li>
+<li>Very early stage, so I could have the opportunity to push the culture to be as open science/open source as I wanted</li>
+</ul>
+<h2 id="summary-of-how-to-job-seq"><a name="user-content-summary-of-how-to-job-seq" href="#summary-of-how-to-job-seq" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Summary of how to job-seq</h2>
+<p>There was a LOT of &ldquo;right place, right time&rdquo; kind of thing happening in my job search. I had built up my network over the years through my genuine interests &ndash;  open source/open science conferences, contribution to open source software, and blogging. Through my PhD, I built up the <a href="cal newport link">rare and valuable skill</a> set of applying machine learning algorithms to biology, by working in an RNA biology lab I built up the domain knowledge for biology, and through my own initiative of taking online machine learning courses and reading papers, I learned the technical skills necessary to apply the right algorithm at the right time. I was lucky that I worked on alternative splicing in single cells because it made me stand out from the single-cell RNA-seq crowd, which I have my advisor to thank for giving me a good niche. I was also lucky to have stayed in touch with friends in undergrad and have people around me who could help me prepare for the interviews, for which I&rsquo;m very grateful.</p>
+<h3 id="summary-of-redgreen-flags"><a name="user-content-summary-of-redgreen-flags" href="#summary-of-redgreen-flags" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Summary of red/&rdquo;green&rdquo; flags</h3>
+<p>I strongly listened to my &ldquo;gut feeling&rdquo; about a place because I knew that with great people, it doesn&rsquo;t matter wath the project or the science is, because you&rsquo;ll trust each other enough to be honest and give candid feedback without insulting the other person. It was really important to me that the people I worked with were great, and then the work will come easily.</p>
+<h4 id="red-flags-not-good-things"><a name="user-content-red-flags-not-good-things" href="#red-flags-not-good-things" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Red flags - not good things</h4>
+<p>These were things that stood out to me during the interview.</p>
+<ul>
+<li>Interviewer shows off that they&rsquo;re smarter than you</li>
+<li>No answer to &ldquo;What&rsquo;s your management style?&rdquo;</li>
+<li>Team doesn&rsquo;t seem to know each other</li>
+<li>Odd weed-out questions</li>
+<li>Dischord between leadership and employees</li>
+</ul>
+<h4 id="green-flags-good-things"><a name="user-content-green-flags-good-things" href="#green-flags-good-things" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Green flags - good things!</h4>
+<ul>
+<li>&ldquo;No asshole rule&rdquo;</li>
+<li>&ldquo;Appreciation ping pong&rdquo;</li>
+<li>Women in prominent positions in the organization</li>
+<li>Early-stage so I could influence the direction of the company</li>
+</ul>
+<h2 id="outro"><a name="user-content-outro" href="#outro" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Outro</h2>
+<p>Thanks for reading this very long post. I hope it is helpful to almost-PhDs and others looking for Scientist-level position jobs in industry, as I couldn&rsquo;t find an honest account of the entire process when I was looking.</p></article></body></html>

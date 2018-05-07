@@ -15,3 +15,4 @@ As a first-year rotation student, rotations were tough. For our program, you had
     - Stop researching earlier than you think to prepare your presentation
       - This sounds easy, but is actually one of the hardest things to do, especially at the end of the rotation when you've finally got into the swing of things and it seems like a discovery is just around the corner. But
         - I completely failed in this aspect this quarter. I did not prepare my presentation until far too late, and then had technical issues (my laptop crashed and the loaner laptop wouldn't connect to the projector) so I gave a chalk talk instead (side note: best [chalk talk TED talk](sadoway's ted talk) ever). It went well but had I prepared ahead of time, I could have just sent someone my slides by email and presented a polished product.
+   - 

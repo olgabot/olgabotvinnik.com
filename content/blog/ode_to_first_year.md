@@ -61,10 +61,11 @@ I define hobbies somewhat militantly - they are active activities, not mindless 
 - Any exercise - dancing, climbing, running, gymnastics
 - Any art - painting, music, sculpture, novel writing
 - Games and Puzzles - crosswords, video games, tabletop puzzles
+- Reading *books*
 
 I list video games because you *can* approach them as something you're trying to improve, rather than a mindless escape.
 
-No, Netflix is not a hobby. Studying French New Wave films or motifs in character development in modern TV series are hobbies. But passively scrolling through Netflix looking for entertainment is not a hobby.
+No, Netflix is not a hobby. Studying French New Wave films or motifs in character development in modern TV series are hobbies. But passively looking for entertainment in Netflix or scrolling through Instagram is not a hobby.
 
 
 # Sometimes, tools that do *kind of* what you want *do* exist
