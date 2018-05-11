@@ -29,7 +29,7 @@
         <option name="SUPPRESS_INLINE_HTML" value="false" />
         <option name="TABLES" value="true" />
         <option name="TASKLISTITEMS" value="true" />
-        <option name="TOC" value="false" />
+        <option name="TOC" value="true" />
         <option name="WIKILINKS" value="true" />
       </PegdownExtensions>
       <ParserOptions>

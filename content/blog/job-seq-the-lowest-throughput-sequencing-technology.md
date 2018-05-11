@@ -6,6 +6,23 @@ tags: [jobs, job search, phd, bioinformatics, computational biology]
 categories: []
 ---
 
+[TOC]: # "Table of Contents"
+
+# Table of Contents
+- [Rough Timeline](#rough-timeline)
+- [Prepping CV+Cover Letter and applying to postdocs](#prepping-cvcover-letter-and-applying-to-postdocs)
+- [No more postdocs](#no-more-postdocs)
+    - [Overall job application + interview flow](#overall-job-application--interview-flow)
+    - [Startup A](#startup-a)
+    - [Startup B](#startup-b)
+    - [Startup C](#startup-c)
+    - [[Synthego](http://www.synthego.com/)](#synthego)
+    - [[Immuneering](http://immuneering.com/)](#immuneering)
+    - [[Chan Zuckerberg Initiative](http://chanzuckerberg.com) (CZI)](#chan-zuckerberg-initiative-czi)
+    - [[Chan Zuckerberg Biohub](http://czbiohub.org/) ("Biohub")](#chan-zuckerberg-biohub-biohub)
+- [Summary of how to job-seq](#summary-of-how-to-job-seq)
+    - [Summary of red/"green" flags](#summary-of-redgreen-flags)
+- [Outro](#outro)
 
 
 This post is about getting my experience in a job after finishing my PhD. I've been asked multiple times by several people so it's [time to write a blog post](https://twitter.com/drob/status/928447584712253440).
@@ -91,23 +108,23 @@ Below are some example "Thank you" emails I sent for my Biohub stuff.
 
 #### Example "Thank you" email for phone interview
 
-> Hi Jim, 
+> Hi Jim,
 > Thank you do much for taking with me yesterday! I'm very excited about Biohub's work and hope I can be a part of it.
 > Warmest,
 > Olga
 
 #### Example "Thank you" email for onsite interview
 
-> Hi Jim, 
-> Thank you again for meeting with me today. You and everyone else have confirmed that CZ Biohub is the incredible, unique, open, and ambitious place I thought it was. I'm so excited to hear back from you. 
-> Warmest, 
+> Hi Jim,
+> Thank you again for meeting with me today. You and everyone else have confirmed that CZ Biohub is the incredible, unique, open, and ambitious place I thought it was. I'm so excited to hear back from you.
+> Warmest,
 > Olga
 
 ### Startup A
 
-I didn't get past the technical interview here. The interviewer asked me about alignment and seemed unconvinced that I knew anything, and asked me to explain how Smith-Waterman local alignment works. I said "okay..." and dug into my memory from four years ago (first year of grad school)! 
+I didn't get past the technical interview here. The interviewer asked me about alignment and seemed unconvinced that I knew anything, and asked me to explain how Smith-Waterman local alignment works. I said "okay..." and dug into my memory from four years ago (first year of grad school)!
 
-They seemed annoyed and unimpressed with my explanation and demanded, 
+They seemed annoyed and unimpressed with my explanation and demanded,
 
 > (Interviewer): What is the difference between a dynamic programming algorithm and a regular one?
 >
@@ -151,7 +168,7 @@ My talk went well, they really liked it. We then had lunch at a nearby restauran
 
 During the interview, I also got some simple statisical questions about how many times you'd need to flip a coin to know if it's biased or not, which is something you learn very early on in grad school. I pointed out that if it's not very biased (e.g. 55:45), you'd have to do a lot more trials than if it was 99:1, which the interviewer said most people don't pick up on (??)
 
-The manager was great. They had a really fleshed out plan for how they wanted the team to grow, and were proactive in making sure their people were taken care of. 
+The manager was great. They had a really fleshed out plan for how they wanted the team to grow, and were proactive in making sure their people were taken care of.
 
 While on the people side, the pros outweighed the cons, this company wasn't huge on open source. They had some code "available" but it was just a source download, there were a bunch of mystery binaries to create their proprietary formats, and there was no way for users to collaboratively submit changes upstream via GitHub or BitBucket. They claimed it was a "support burden."
 
@@ -198,7 +215,7 @@ The team dynamic was really great. They truly knew each other and cracked small 
 > Someone: Sansa, that plot really drove the point home to illuminate the biological result
 >
 > Sansa: Oh, I couldn't have done it without Arya's analysis of the literature
-> 
+>
 > Arya: Oh, I couldn't have done it without Ygritte's plotting package
 >
 > Ygritte: Oh, I couldn't have done it without Danerys's package manager
@@ -215,7 +232,7 @@ Since location was extremely important to me and they currently had positions in
 
 ### [Chan Zuckerberg Initiative](http://chanzuckerberg.com) (CZI)
 
-CZI was actually the first place I applied. 
+CZI was actually the first place I applied.
 
 A few months before I started applying to postdocs, I watched the [CZI announcement]() in October 2016 -- plus anything else I could get my hands on about the organization, e.g. this town hall by Joe Derisi about the CZ Biohub Investigators -- and was compelled by the lofty mission of curing all disease by 2100. It seems an outrageous goal to most, but as Cori Bargmann put the last 100 years of medical advances into perspective, I believed it was possible. But I knew that in the current climate of "Publish or Perish," and the [overly strong] reliance on publishing in high ["impact factor"](http://ivory.idyll.org/blog/2014-on-impact-factors.html) journals for promotion and grants was BS and the system needed a jump start. The fact that [CZI donated to the biology preprint server BioRxiv](http://www.sciencemag.org/news/2017/04/biorxiv-preprint-server-gets-funding-chan-zuckerberg-initiative) was an indication to me that they actually "walked" the talk of open science, but I wasn't convinced from an open source perspective. I hadn't heard of Cori Bargmann before and I didn't know her as publishing open source software for scientific researchers.
 
@@ -225,7 +242,7 @@ In Februrary I had my phone interview with the recruiter. He was a real "recruit
 
 For the onsite interview, I prepared for a technical software engineer interview with my partner, who is a software engineer at Google. I worked through exercises in [Cracking the Coding Interview by Laakman-McDowell](http://www.crackingthecodinginterview.com/), and refreshed my memory of powers of 2. Since I had the interview schedule and names of my interviewers, I googled them and took some notes so I knew who would be giving me technical questions. We role-played - my partner pretended to be one of my interviewers, and I wrote out the code on a whiteboard. It helped a lot to boost my confidence for the interview, because I otherwise felt totally unprepared for technical coding questions.
 
-The actual onsite interview came a few weeks later. The morning of, my interview started at 11am but I woke up at 7. I did a workout on YouTube and had a leisurely breakfast at a cafe nearby where I met a nice woman from Alaska and told her this was my dream job. I was done by 10 and was so nervous before my interview that I needed to walk off my nervous energy. I walked up and down University Ave in Palo Alto three times until 10:30, when I felt it was reasonable to come in to my interview. 
+The actual onsite interview came a few weeks later. The morning of, my interview started at 11am but I woke up at 7. I did a workout on YouTube and had a leisurely breakfast at a cafe nearby where I met a nice woman from Alaska and told her this was my dream job. I was done by 10 and was so nervous before my interview that I needed to walk off my nervous energy. I walked up and down University Ave in Palo Alto three times until 10:30, when I felt it was reasonable to come in to my interview.
 
 When I knocked, a woman opened the door for me and I said I was here for an interview, and when I walked in, I realized that woman was Priscilla Chan and that Mark Zuckerberg was standing right there, talking to someone very important I assumed! It happened like a slow-mo movie: "Chan Zuckerberg Initiative" was written on the wall right behind where they were standing. I was too nervous to say anything to them other than "hi" and "thank you" so I sat and read the Harvard Business Review magazine on the coffee table.
 
