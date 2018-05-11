@@ -1,12 +1,11 @@
 ---
-Title: Teaching "Data cleaning"
-Slug: teaching-data-cleaning
-Date: 2015-01-29T17:25:59-04:00
-#Tags: teaching, python, programming
-Category: python
-Author: Olga Botvinnik
-Lang: en
+title: "Teaching *Data Cleaning*"
+date: 2015-01-29T17:25:59-04:00
+draft: false
+tags: [teaching, python, programming]
+categories: [python]
 ---
+
 
 Our compute cluster is down for maintenance, so obviously instead of working on my advancement exam presentation, I'm gonna write a blog post.
 

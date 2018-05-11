@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fb2fb38-ef9e-41b1-9428-f5ca9cf25d96" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2011-12-14-glamorized-exhaustion-is-not-productivity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2011-12-23-constancy-and-moderation-wins-the-race.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-01-11-how-to-be-fabulously-successful-eric-lander.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-07-18-ziv-bar-joseph-marathons-and-computational-biology.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-08-24-bam-files-profit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-08-31-how-to-request-a-letter-of-recommendation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-09-07-logistic-regression-tutorial.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-09-29-3-boring-ways-to-be-productive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-10-18-arianna-huffington-on-sleep-she-also-reminds-us.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-11-14-how-to-use-googles-internet-caching-to-your-advantage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-11-15-how-to-set-helvetica-as-the-default-sans-serif-font-in.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2012-11-18-startups-life-learning-and-happiness-the-anti-todo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-03-04-the-essence-of-the-problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-03-17-single-cell-genomics-will-change-the-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-04-10-implementing-graphic-design-principles-in-pythons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-04-21-beautiful-boxplots-and-sassy-small-multiples.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-04-21-in-india-no-frills-hospitals-offer-800-heart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-04-28-how-to-fail-and-sometimes-win-at-graduate-fellowships.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-05-03-the-r-script-that-will-change-your-life.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-08-21-prettyplotlib-painlessly-create-beautiful-matplotlib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-08-31-science-meet-productivity-turned-1-today-thank.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-10-07-ucsd-scientific-python-user-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-10-29-everything-is-a-performance-make-your-fifteen-minutes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-11-21-succinct-loop-testing-in-python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-11-22-you-can-code-too.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-12-23-prettyplotlib-update.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2013-12-25-how-a-developer-learned-not-to-be-racist-and-sexist.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-01-08-most-of-the-time-you-fail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-03-03-pythonpath-is-a-liar-site-py-and-easy-install-pth-tell.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-03-04-did-you-take-physics-or-chemistry-classes-as-undergrad.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-05-01-implementing-annotation-free-quantification-of-splice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-09-25-migration-to-github-io.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2014-10-06-no-longer-actively-developing-prettyplotlib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-01-27-2014-annual-review.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-01-29-teaching-data-cleaning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-02-22-classic-vs-applied-bioinformatics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-03-31_create_venter_fasta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-04-01-bad-data-science-puns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-04-08-things-said-to-me.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-04-12-codeneuro-nyc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2015-05-06-igv-null-pointer-exception.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2016-12-14-time-is-citations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/job-seq-the-lowest-throughput-sequencing-technology.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/job-seq-the-lowest-throughput-sequencing-technology.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/job-seq-the-lowest-throughput-sequencing-technology.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelican-to-jekyll.py" beforeDir="false" afterPath="$PROJECT_DIR$/pelican-to-jekyll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-sustain/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-sustain/layouts/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="olgabotvinnik.com" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="python_commandline_interfaces.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/blog/python_commandline_interfaces.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="357">
+                <caret line="21" column="4" selection-start-line="21" selection-end-line="21" selection-end-column="4" />
+                <folding>
+                  <marker date="1525720569000" expanded="true" signature="11:77" ph="Side-by-s…ces (CLIs)" />
+                  <marker date="1525720569000" expanded="true" signature="84:109" ph="2017-08-2…7:02-07:00" />
+                  <marker date="1525720569000" expanded="true" signature="117:121" ph="true" />
+                </folding>
+              </first_editor>
+              <second_editor>
+                <js_state>
+                  <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:37626}" />
+                </js_state>
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pelican-to-jekyll.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pelican-to-jekyll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="102" column="71" selection-start-line="102" selection-start-column="71" selection-end-line="102" selection-end-column="71" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utc</find>
+      <find>save_file</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/content/blog/googledrive-ubuntu.md" />
+        <option value="$PROJECT_DIR$/content/blog/python-packaging.md" />
+        <option value="$PROJECT_DIR$/content/blog/python-packaging-is-hard.md" />
+        <option value="$PROJECT_DIR$/content/blog/python_commandline_interfaces.md" />
+        <option value="$PROJECT_DIR$/update-markdown-frontmatter.py" />
+        <option value="$PROJECT_DIR$/pelican-to-jekyll.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="olgabotvinnik.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olgabotvinnik.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olgabotvinnik.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olgabotvinnik.com" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="utc&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="olgabotvinnik.com" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="olgabotvinnik.com" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="olgabotvinnik.com" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="olgabotvinnik.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb2fb38-ef9e-41b1-9428-f5ca9cf25d96" name="Default" comment="" />
+      <created>1504810543924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504810543924</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9412674" visible="true" weight="0.16971917" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32890365" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.05873261" side_tool="true" weight="0.2556615" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="post == " language="Python" />
+          <url>file://$PROJECT_DIR$/pelican-to-jekyll.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>post ==</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/content/blog/python_commandline_interfaces.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="4" selection-start-line="21" selection-end-line="21" selection-end-column="4" />
+            <folding>
+              <marker date="1525720569000" expanded="true" signature="11:77" ph="Side-by-s…ces (CLIs)" />
+              <marker date="1525720569000" expanded="true" signature="84:109" ph="2017-08-2…7:02-07:00" />
+              <marker date="1525720569000" expanded="true" signature="117:121" ph="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:37626}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pelican-to-jekyll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/python_commandline_interfaces.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="4" selection-start-line="21" selection-end-line="21" selection-end-column="4" />
+            <folding>
+              <marker date="1525720569000" expanded="true" signature="11:77" ph="Side-by-s…ces (CLIs)" />
+              <marker date="1525720569000" expanded="true" signature="84:109" ph="2017-08-2…7:02-07:00" />
+              <marker date="1525720569000" expanded="true" signature="117:121" ph="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:37626}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pelican-to-jekyll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/python_commandline_interfaces.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <folding>
+              <marker date="1525720569000" expanded="true" signature="11:77" ph="Side-by-s…ces (CLIs)" />
+              <marker date="1525720569000" expanded="true" signature="84:109" ph="2017-08-2…7:02-07:00" />
+              <marker date="1525720569000" expanded="true" signature="117:121" ph="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:37626}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/googledrive-ubuntu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <marker date="1504810591000" expanded="true" signature="11:56" ph="Mounting … in Ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="63:88" ph="2017-08-2…4:39-07:00" />
+              <marker date="1504810591000" expanded="true" signature="96:101" ph="false" />
+              <marker date="1504810591000" expanded="true" signature="102:134" ph="tags: [2 items]" />
+              <marker date="1504810591000" expanded="true" signature="109:123" ph="google drive" />
+              <marker date="1504810591000" expanded="true" signature="125:133" ph="ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="135:162" ph="categories: [1 item]" />
+              <marker date="1504810591000" expanded="true" signature="148:161" ph="programming" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/googledrive-ubuntu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <marker date="1504810591000" expanded="true" signature="11:56" ph="Mounting … in Ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="63:88" ph="2017-08-2…4:39-07:00" />
+              <marker date="1504810591000" expanded="true" signature="96:101" ph="false" />
+              <marker date="1504810591000" expanded="true" signature="102:134" ph="tags: [2 items]" />
+              <marker date="1504810591000" expanded="true" signature="109:123" ph="google drive" />
+              <marker date="1504810591000" expanded="true" signature="125:133" ph="ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="135:162" ph="categories: [1 item]" />
+              <marker date="1504810591000" expanded="true" signature="148:161" ph="programming" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/googledrive-ubuntu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="855">
+            <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+            <folding>
+              <marker date="1504810591000" expanded="true" signature="11:56" ph="Mounting … in Ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="63:88" ph="2017-08-2…4:39-07:00" />
+              <marker date="1504810591000" expanded="true" signature="96:101" ph="false" />
+              <marker date="1504810591000" expanded="true" signature="102:134" ph="tags: [2 items]" />
+              <marker date="1504810591000" expanded="true" signature="109:123" ph="google drive" />
+              <marker date="1504810591000" expanded="true" signature="125:133" ph="ubuntu" />
+              <marker date="1504810591000" expanded="true" signature="135:162" ph="categories: [1 item]" />
+              <marker date="1504810591000" expanded="true" signature="148:161" ph="programming" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:405}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/python-packaging.md" />
+    <entry file="file://$PROJECT_DIR$/content/blog/python-packaging-is-hard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <folding>
+              <marker date="1505862311000" expanded="true" signature="11:37" ph="Python pa…ng is hard" />
+              <marker date="1505862311000" expanded="true" signature="44:69" ph="2017-09-1…1:00-07:00" />
+              <marker date="1505862311000" expanded="true" signature="77:81" ph="true" />
+              <marker date="1505862311000" expanded="true" signature="82:98" ph="tags: [1 item]" />
+              <marker date="1505862311000" expanded="true" signature="89:97" ph="python" />
+              <marker date="1505862311000" expanded="true" signature="99:138" ph="categories: [2 items]" />
+              <marker date="1505862311000" expanded="true" signature="112:122" ph="software" />
+              <marker date="1505862311000" expanded="true" signature="124:137" ph="open source" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:331}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/python_commandline_interfaces.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="4" selection-start-line="21" selection-end-line="21" selection-end-column="4" />
+            <folding>
+              <marker date="1525720569000" expanded="true" signature="11:77" ph="Side-by-s…ces (CLIs)" />
+              <marker date="1525720569000" expanded="true" signature="84:109" ph="2017-08-2…7:02-07:00" />
+              <marker date="1525720569000" expanded="true" signature="117:121" ph="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <js_state>
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:37626}" />
+            </js_state>
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/outrigger-click/lib/python3.6/site-packages/dateutil/tz/tz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/outrigger-click/lib/python3.6/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="776" column="8" selection-start-line="776" selection-start-column="8" selection-end-line="776" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update-markdown-frontmatter.py" />
+    <entry file="file://$PROJECT_DIR$/pelican-to-jekyll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="102" column="71" selection-start-line="102" selection-start-column="71" selection-end-line="102" selection-end-column="71" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
