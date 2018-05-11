@@ -9,6 +9,7 @@ categories: []
 [TOC]: # "Table of Contents"
 
 # Table of Contents
+- [Introduction](#introduction)
 - [Rough Timeline](#rough-timeline)
 - [Prepping CV+Cover Letter and applying to postdocs](#prepping-cvcover-letter-and-applying-to-postdocs)
 - [No more postdocs](#no-more-postdocs)
@@ -24,6 +25,7 @@ categories: []
     - [Summary of red/"green" flags](#summary-of-redgreen-flags)
 - [Outro](#outro)
 
+## Introduction
 
 This post is about getting my experience in a job after finishing my PhD. I've been asked multiple times by several people so it's [time to write a blog post](https://twitter.com/drob/status/928447584712253440).
 
