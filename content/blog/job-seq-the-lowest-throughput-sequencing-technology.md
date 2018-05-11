@@ -1,5 +1,5 @@
 ---
-title: "Job Seq: The Lowest Throughput Sequencing Technology"
+title: "Job-Seq: The Lowest Throughput Sequencing Technology"
 date: 2018-04-09T12:08:50-07:00
 draft: False
 tags: [jobs, job search, phd, bioinformatics, computational biology]
@@ -34,7 +34,7 @@ Here's a rough timeline of my job search:
 
 Over the holiday break, I went home to family in Oregon and started preparing my CV and writing cover letters. In preparing my CV, I felt super inadequate. I felt my CV didn't represent all the work I did over the past 4 years - I didn't have enough publications, I didn't have a Nature/Science/Cell paper, the usual academic woes. The worst was when I started comparing myself to people from college and found an outlier who was already on the *tenure-track job market*, so basically light-years ahead of where I was. I felt like that could have been me if things had worked out differently for me.
 
-I decided if I was going to do a postdoc, it had to follow the following parameters, in priority order (most imoprtant first):
+I decided if I was going to do a postdoc, it had to follow the following parameters, in priority order (most important first):
 
 1. Be in a location near a Google office that had my partner's product area. This was extremely high priority for me as we had spent the entirety of my post-undergrad career as a long-distance relationship.
 1. Be in a lab or environment that was pro-open science, pro-open source software development. This means posting preprints, openly developing code on GitHub before the paper is published, and posting the data before the paper is published.
