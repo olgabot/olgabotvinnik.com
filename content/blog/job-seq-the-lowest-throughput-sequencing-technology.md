@@ -42,12 +42,12 @@ Spoiler alert: I eventually ended up at [Chan Zuckerberg Biohub](https://www.czb
 
 Here's a rough timeline of my job search:
 
-- *December 2017* - [Prepared CV](https://github.com/olgabot/latex-moderncv)
-- *January 2018* - Applied to postdocs, then scrapped that and applied to industry jobs
-- *February 2018* - More industry aplications
-- *March 2018* - Phone interviews
-- *April 2018* - Onsite interviews
-- *May 2018* - [Defended](https://twitter.com/olgabot/status/863583986970353664?lang=en) May 12th & started new job May 29th!
+- *December 2016* - [Prepared CV](https://github.com/olgabot/latex-moderncv)
+- *January 2017* - Applied to postdocs, then scrapped that and applied to industry jobs
+- *February 2017* - More industry aplications
+- *March 2017* - Phone interviews
+- *April 2017* - Onsite interviews
+- *May 2017* - [Defended](https://twitter.com/olgabot/status/863583986970353664?lang=en) May 12th & started new job May 29th!
 
 ## Prepping CV+Cover Letter and applying to postdocs
 
