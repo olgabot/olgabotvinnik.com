@@ -1,7 +1,7 @@
 ---
 title: "Things said to me"
 date: 2015-04-07T17:25:59-04:00
-draft: false
+draft: true
 tags: [tech, feminism]
 categories: [tech]
 ---
