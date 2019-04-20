@@ -4,7 +4,7 @@ title = "Olga Botvinnik"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "olgabot"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-27556408-1"
 theme = "hugo-sustain"
 
 [permalinks]
@@ -25,6 +25,8 @@ theme = "hugo-sustain"
   Twitter       = "olgabot"
   LinkedIn      = "olgabotvinnik"
   Stackoverflow = "users/1628971/olga-botvinnik"
+  Twitch        = "BioinformaticsBeyonce"
+  Youtube       = "BioinformaticsBeyonce"
 
 ## Main Menu
 [[menu.main]]
@@ -37,4 +39,3 @@ theme = "hugo-sustain"
   identifier = "cv"
   weight = 300
   url = "https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf"
-
