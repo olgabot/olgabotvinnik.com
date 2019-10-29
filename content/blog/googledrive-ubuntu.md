@@ -16,10 +16,11 @@ set up the Google Drive API, these are the steps we took.
 
 # Table of Contents
 - [1. Installation of command-line google drive for Ubuntu](#1-installation-of-command-line-google-drive-for-ubuntu)
-- [2. Get Client ID and Secret from Google Drive API](#2-get-client-id-and-secret-from-google-drive-api)
-- [3. Copy the downloaded JSON to the utility box](#3-copy-the-downloaded-json-to-the-utility-box)
-- [4. Activate the Google Drive API](#4-activate-the-google-drive-api)
-- [5. Mount the Google Drive folder!](#5-mount-the-google-drive-folder)
+- [2. Make local `~/googledrive` folder](#2-make-local-googledrive-golder)
+- [3. Get Client ID and Secret from Google Drive API](#3-get-client-id-and-secret-from-google-drive-api)
+- [4. Copy the downloaded JSON to the utility box](#4-copy-the-downloaded-json-to-the-utility-box)
+- [5. Activate the Google Drive API](#5-activate-the-google-drive-api)
+- [6. Mount the Google Drive folder!](#6-mount-the-google-drive-folder)
 
 
 
@@ -106,7 +107,17 @@ Processing triggers for man-db (2.7.5-1) ...
 Setting up google-drive-ocamlfuse (0.6.21-0ubuntu1~ubuntu16.04.1) ...
 ```
 
-## 2. Get Client ID and Secret from Google Drive API
+## 2. Make a `~/googledrive` directory
+
+`google-drive-ocamlfuse` needs the mounted directory to already exist, so let's make it:
+
+```
+(base)
+ ✘  Tue 29 Oct - 15:02  ~/data_lg/czbiohub-reference/gencode/mouse/vM21 
+ olga@ndnd  mkdir ~/googledrive
+```
+
+## 3. Get Client ID and Secret from Google Drive API
 
 If you try to run `google-drive-ocamlfuse` on a headless machine that has no
 `$DISPLAY` variable, you'll get an error.
@@ -153,14 +164,14 @@ step where you're supposed to "Cancel" instead of press 'OK' so pay attention!
 
 
 
-## 3. Copy the downloaded JSON to the utility box
+## 4. Copy the downloaded JSON to the utility box
 
 ```
 ➜  dobby git:(master) scp ~/Downloads/client_secret_1234asdf.apps.googleusercontent.com.json utility@ds06:~/client_secret.json
 client_secret_1234asdf.apps.googleusercontent.com.json                                   100%  441   558.6KB/s   00:00
 ```
 
-## 4. Activate the Google Drive API
+## 5. Activate the Google Drive API
 
 Now you have the proper authorizations on the computer, but you haven't allowed
 that key to use Google Drive specifically yet. If you tried to continue setting
@@ -217,7 +228,7 @@ drwx------  2 utility utility  4096 Aug  9 11:54 .vnc/
 ## 5. Mount the Google Drive folder!
 
 
-Use your Client ID and Secret to authenticate in `-headless` mode for `google-drive-ocamlfuse`:
+Use your Client ID and Secret provided from the authentication before to authenticate in `-headless` mode for `google-drive-ocamlfuse`:
 
 ```
 (py3) dobby@ds05:~/dobby$ google-drive-ocamlfuse ~/googledrive -headless -id 1234-asdf.apps.googleusercontent.com -secret asdfasdfasdf
