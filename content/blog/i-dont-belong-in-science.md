@@ -15,7 +15,7 @@ If anyone looks like they belong in academia from the outside, it’s me. I’m 
 
 *“Grad school was the best years of my life”* — Principal Investigators, aka the [0.45% of PhD students](https://royalsociety.org/~/media/Royal_Society_Content/policy/publications/2010/4294970126.pdf) who so-called “made it” to the professoriate.
 
-![Figure depicting the percentage of PhD holders pursuing careers outside science, continuing on to early career research, industry, or permanent research staff. The “Careers outside science” group totals ~80% if you add the 53% right after the PhD and 26.5% after some early career work (e.g. postdoc or adjunct professor).](I%20don%E2%80%99t%20belong%20in%20science%208b32a4c4deae4493895a8cf4440bede6/Untitled.png)
+![Figure depicting the percentage of PhD holders pursuing careers outside science, continuing on to early career research, industry, or permanent research staff. The “Careers outside science” group totals ~80% if you add the 53% right after the PhD and 26.5% after some early career work (e.g. postdoc or adjunct professor).](/img/phd_career_pipeline.png)
 
 Figure depicting the percentage of PhD holders pursuing careers outside science, continuing on to early career research, industry, or permanent research staff. The “Careers outside science” group totals ~80% if you add the 53% right after the PhD and 26.5% after some early career work (e.g. postdoc or adjunct professor).
 
