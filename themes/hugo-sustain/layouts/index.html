@@ -1,26 +1,41 @@
 {{ partial "head" . }}
-  <body>
-    <div id="wrap">
-      {{ partial "header" . }}
-      <section id="about">
-        <div class="container">
+
+<body>
+  <div id="wrap">
+    {{ partial "header" . }}
+    <section id="about">
+      <div class="container">
         <div class="avatar">
-          <img class="img-circle" width="300px" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="PhD Princess">
+          <img class="img-circle" width="300px" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}"
+            alt="Dr. Olga Glamshot">
         </div>
-        <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a peppy computational biologist. I'm currently building <a href="https://bridgebio.com/">Seanome</a>, where we build open genomics <a href="https://github.com/seanome"></a>tools</a> to unlock breakthroughs from ocean biodiversity.</h3>
-                <h3>My passions include open source software, open science, molecular sequence data, tea, and Beyoncé.</h3>
-          <h3>My goals in life are to <strong>understand how the <tt>ACGT</tt>s of DNA makes a cell work</strong> and <strong>empower others through programming</strong>.</h3>
+        <h3>I'm <strong>{{ .Site.Params.author }}</strong> (she/her), a peppy computational biologist. I'm currently
+          building <a href="https://bridgebio.com/">Seanome</a>, where we build open genomics <a
+            href="https://github.com/seanome"></a>tools</a> to unlock breakthroughs from ocean biodiversity.</h3>
+        <h3>My passions include open source software, open science, tea, and Beyoncé.</h3>
+        <h3>Molecular sequence data is my happy place: I love looking at <tt>ACGT</tt>s of DNA, the 20+ amino acids of
+          proteins, and thinking about what they do.</h3>
+        <h3>My goals in life are to <strong>understand how a cell works</strong>, <br>and <strong>make science better
+            for
+            everyone</strong> .
+        </h3>
 
 
         <!--<h3>My hobbies are art: .</h3>-->
         <!--<h3>Have a look at some of my working <a href="{{ .Site.BaseURL }}projects/"> projects</a>.</h3>-->
-          <h3>For more, check my <a href="https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf">Curriculum Vitae</a> (<a href="https://github.com/olgabot/latex-moderncv">LaTeX source code</a>).</h3>
-        <h3>To get in touch, contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
+        <h3>For more, check my <a
+            href="https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf">Curriculum Vitae</a> (<a
+            href="https://github.com/olgabot/latex-moderncv">LaTeX source code</a>).</h3>
+        <h3>To get in touch, contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{
+            .Site.Params.Social.Twitter }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
         {{ partial "social.html" . }}
-        <h4>While you're here, if you're a biologist that wants to learn programming, or a programmer that wants to learn biology, here is the <a href="https://www.bioinformaticsalgorithms.org/"><strong>active learning</strong> textbook</a> for you.</h4>
-        </div>
-      </section>
-    </div>
-    {{ partial "footer" . }}
-  </body>
+        <h4>While you're here, if you're a biologist that wants to learn programming, or a programmer that wants to
+          learn biology, here is the <a href="https://www.bioinformaticsalgorithms.org/"><strong>active
+              learning</strong> textbook</a> for you.</h4>
+      </div>
+    </section>
+  </div>
+  {{ partial "footer" . }}
+</body>
+
 </html>
