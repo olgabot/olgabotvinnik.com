@@ -1,41 +1,43 @@
 baseurl = "https://olgabotvinnik.com/"
 languageCode = "en-US"
 title = "Olga Botvinnik"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "olgabot"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-27556408-1"
 theme = "hugo-sustain"
 
+[services]
+# Enable comments by entering your Disqus shortname
+disqus.shortname = "olgabot"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics.ID = "G-M5QVG8HF0Y"
+
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "olga.jpg"
-  author = "Olga Botvinnik"
-  description = "Peppy Computational Biologist"
+avatar = "olga_glamshot.jpeg"
+author = "Olga Botvinnik"
+description = "Peppy Computational Biologist"
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
+# Custom assets can be linked with their paths relative to static/
+custom_css = []
+custom_js = []
 
 [params.social]
-  Github        = "olgabot"
-  Email         = "olga@olgabotvinnik.com"
-  Twitter       = "olgabot"
-  LinkedIn      = "olgabotvinnik"
-  Stackoverflow = "users/1628971/olga-botvinnik"
-  Twitch        = "BioinformaticsBeyonce"
-  Youtube       = "BioinformaticsBeyonce"
+Github = "olgabot"
+Email = "olga@olgabotvinnik.com"
+Twitter = "olgabot"
+LinkedIn = "olgabotvinnik"
+Stackoverflow = "users/1628971/olga-botvinnik"
+# Twitch = "BioinformaticsBeyonce"
+# Youtube = "BioinformaticsBeyonce"
 
 ## Main Menu
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog"
+name = "blog"
+weight = 100
+identifier = "blog"
+url = "/blog"
 [[menu.main]]
-  name = "cv"
-  identifier = "cv"
-  weight = 300
-  url = "https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf"
+name = "cv"
+identifier = "cv"
+weight = 300
+url = "https://github.com/olgabot/latex-moderncv/raw/master/olga-botvinnik-cv.pdf"
